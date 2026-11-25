@@ -1,0 +1,3 @@
+corpus,method,n_levels,vocab_target,vocab_actual,seed,train_seconds,tokens_per_char,bits_per_char,boundary_precision,boundary_recall,boundary_f1,decode_word,decode_doc
+synthetic,hier2_b256,2,512,512,42,1.99,0.3112028910686629,2.342196615497939,0.9123987268518517,0.88671875,0.8916666666666667,1.0,1.0
+code,hier2_b256,2,512,512,42,4.42,0.4685785926970694,3.8854745581204666,,,,1.0,1.0

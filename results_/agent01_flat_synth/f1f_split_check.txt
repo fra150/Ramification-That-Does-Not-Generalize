@@ -1,0 +1,80 @@
+seed=42 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1177/2304  (0.511)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1177, 3: 1127} suffix_len={2: 2304}
+seed=42 morphology=fixed    split=pair   train=  9327 test=  2193 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1136/2193  (0.518)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1136, 3: 1057} suffix_len={2: 2193}
+seed=42 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  384/4608  (0.083)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1168, 2: 1151, 3: 1109, 4: 1180} suffix_len={1: 1571, 2: 1539, 3: 1498}
+seed=42 morphology=variable split=pair   train= 18663 test=  4377 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  382/4377  (0.087)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1104, 2: 1148, 3: 1118, 4: 1007} suffix_len={1: 1588, 2: 1442, 3: 1347}
+seed=43 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2296 const2_exact= 1178/2304  (0.511)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=8 prefix_len={2: 1178, 3: 1126} suffix_len={2: 2304}
+seed=43 morphology=fixed    split=pair   train=  9318 test=  2202 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1186/2202  (0.539)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1186, 3: 1016} suffix_len={2: 2202}
+seed=43 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  398/4608  (0.086)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1141, 2: 1166, 3: 1097, 4: 1204} suffix_len={1: 1512, 2: 1494, 3: 1602}
+seed=43 morphology=variable split=pair   train= 18675 test=  4365 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  375/4365  (0.086)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1108, 2: 1075, 3: 1069, 4: 1113} suffix_len={1: 1399, 2: 1514, 3: 1452}
+seed=44 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1180/2304  (0.512)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1180, 3: 1124} suffix_len={2: 2304}
+seed=44 morphology=fixed    split=pair   train=  9329 test=  2191 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1195/2191  (0.545)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1195, 3: 996} suffix_len={2: 2191}
+seed=44 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  398/4608  (0.086)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1179, 2: 1153, 3: 1118, 4: 1158} suffix_len={1: 1524, 2: 1591, 3: 1493}
+seed=44 morphology=variable split=pair   train= 18656 test=  4384 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  367/4384  (0.084)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1152, 2: 1121, 3: 989, 4: 1122} suffix_len={1: 1490, 2: 1446, 3: 1448}
+seed=45 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1181/2304  (0.513)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1181, 3: 1123} suffix_len={2: 2304}
+seed=45 morphology=fixed    split=pair   train=  9328 test=  2192 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1135/2192  (0.518)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1135, 3: 1057} suffix_len={2: 2192}
+seed=45 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  398/4608  (0.086)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1177, 2: 1152, 3: 1138, 4: 1141} suffix_len={1: 1510, 2: 1565, 3: 1533}
+seed=45 morphology=variable split=pair   train= 18641 test=  4399 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  415/4399  (0.094)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1088, 2: 1216, 3: 1053, 4: 1042} suffix_len={1: 1430, 2: 1498, 3: 1471}
+seed=46 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1115/2304  (0.484)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1115, 3: 1189} suffix_len={2: 2304}
+seed=46 morphology=fixed    split=pair   train=  9316 test=  2204 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1071/2204  (0.486)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1071, 3: 1133} suffix_len={2: 2204}
+seed=46 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  380/4608  (0.082)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1131, 2: 1145, 3: 1167, 4: 1165} suffix_len={1: 1554, 2: 1553, 3: 1501}
+seed=46 morphology=variable split=pair   train= 18662 test=  4378 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  381/4378  (0.087)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 986, 2: 1170, 3: 1036, 4: 1186} suffix_len={1: 1532, 2: 1435, 3: 1411}
+seed=47 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1186/2304  (0.515)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1186, 3: 1118} suffix_len={2: 2304}
+seed=47 morphology=fixed    split=pair   train=  9327 test=  2193 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1156/2193  (0.527)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1156, 3: 1037} suffix_len={2: 2193}
+seed=47 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  390/4608  (0.085)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1168, 2: 1165, 3: 1144, 4: 1131} suffix_len={1: 1478, 2: 1517, 3: 1613}
+seed=47 morphology=variable split=pair   train= 18667 test=  4373 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  365/4373  (0.083)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1098, 2: 1143, 3: 1026, 4: 1106} suffix_len={1: 1405, 2: 1374, 3: 1594}
+seed=48 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1133/2304  (0.492)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1133, 3: 1171} suffix_len={2: 2304}
+seed=48 morphology=fixed    split=pair   train=  9330 test=  2190 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1093/2190  (0.499)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1093, 3: 1097} suffix_len={2: 2190}
+seed=48 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  395/4608  (0.086)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1160, 2: 1215, 3: 1114, 4: 1119} suffix_len={1: 1499, 2: 1546, 3: 1563}
+seed=48 morphology=variable split=pair   train= 18655 test=  4385 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  397/4385  (0.091)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1040, 2: 1149, 3: 1140, 4: 1056} suffix_len={1: 1400, 2: 1530, 3: 1455}
+seed=49 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1147/2304  (0.498)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1147, 3: 1157} suffix_len={2: 2304}
+seed=49 morphology=fixed    split=pair   train=  9311 test=  2209 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1094/2209  (0.495)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1094, 3: 1115} suffix_len={2: 2209}
+seed=49 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  361/4608  (0.078)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1142, 2: 1097, 3: 1168, 4: 1201} suffix_len={1: 1545, 2: 1547, 3: 1516}
+seed=49 morphology=variable split=pair   train= 18666 test=  4374 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  378/4374  (0.086)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1060, 2: 1154, 3: 1017, 4: 1143} suffix_len={1: 1489, 2: 1422, 3: 1463}
+seed=50 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1157/2304  (0.502)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1157, 3: 1147} suffix_len={2: 2304}
+seed=50 morphology=fixed    split=pair   train=  9334 test=  2186 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1072/2186  (0.490)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1072, 3: 1114} suffix_len={2: 2186}
+seed=50 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  373/4608  (0.081)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1187, 2: 1142, 3: 1157, 4: 1122} suffix_len={1: 1609, 2: 1525, 3: 1474}
+seed=50 morphology=variable split=pair   train= 18668 test=  4372 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  395/4372  (0.090)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1079, 2: 1179, 3: 903, 4: 1211} suffix_len={1: 1475, 2: 1456, 3: 1441}
+seed=51 morphology=fixed    split=triple train=  9216 test=  2304 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 2304 const2_exact= 1180/2304  (0.512)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={2: 1180, 3: 1124} suffix_len={2: 2304}
+seed=51 morphology=fixed    split=pair   train=  9319 test=  2201 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact= 1101/2201  (0.500)
+  held_pr=96 held_rs=144 unseen_pr=1152 unseen_rs=1152 prefix_len={2: 1101, 3: 1100} suffix_len={2: 2201}
+seed=51 morphology=variable split=triple train= 18432 test=  4608 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen= 4608 const2_exact=  369/4608  (0.080)
+  held_pr=- held_rs=- unseen_pr=0 unseen_rs=0 prefix_len={1: 1170, 2: 1130, 3: 1219, 4: 1089} suffix_len={1: 1569, 2: 1539, 3: 1500}
+seed=51 morphology=variable split=pair   train= 18663 test=  4377 dup=  0 dropped=  0 missing_component=  0 all_pairs_seen=    0 const2_exact=  319/4377  (0.073)
+  held_pr=192 held_rs=144 unseen_pr=2304 unseen_rs=2304 prefix_len={1: 1090, 2: 978, 3: 1163, 4: 1146} suffix_len={1: 1424, 2: 1429, 3: 1524}

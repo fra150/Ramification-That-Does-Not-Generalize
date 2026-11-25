@@ -1,0 +1,82 @@
+seed=42 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18663, 'n_test_words': 4377}
+seed=42 v=512 flat      tok/ch=0.321 bpc=2.486 F1m=0.908 F1u=0.900 L1=491 t=2.3s
+seed=42 v=512 frequency tok/ch=0.321 bpc=2.486 F1m=0.908 F1u=0.900 L1=294 L2=197 t=0.0s
+seed=42 v=512 morph     tok/ch=0.321 bpc=2.482 F1m=0.910 F1u=0.902 L1=294 L2=197 t=0.0s
+seed=42 v=512 random_closed tok/ch=0.325 bpc=2.510 F1m=0.900 F1u=0.890 L1=293 L2=198 t=0.0s
+seed=42 v=512 morph_const2 tok/ch=0.325 bpc=2.546 F1m=0.893 F1u=0.881 L1=294 L2=197 t=0.0s
+seed=42 v=512 morph_random2 tok/ch=0.321 bpc=2.486 F1m=0.909 F1u=0.901 L1=292 L2=199 t=0.0s
+seed=42 v=512 morph_near2  tok/ch=0.321 bpc=2.491 F1m=0.907 F1u=0.900 L1=294 L2=197 t=0.0s
+seed=43 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18675, 'n_test_words': 4365}
+seed=43 v=512 flat      tok/ch=0.308 bpc=2.383 F1m=0.921 F1u=0.911 L1=491 t=2.5s
+seed=43 v=512 frequency tok/ch=0.308 bpc=2.383 F1m=0.921 F1u=0.911 L1=294 L2=197 t=0.0s
+seed=43 v=512 morph     tok/ch=0.314 bpc=2.430 F1m=0.905 F1u=0.888 L1=278 L2=213 t=0.0s
+seed=43 v=512 random_closed tok/ch=0.307 bpc=2.369 F1m=0.921 F1u=0.912 L1=293 L2=198 t=0.0s
+seed=43 v=512 morph_const2 tok/ch=0.315 bpc=2.458 F1m=0.893 F1u=0.873 L1=294 L2=197 t=0.0s
+seed=43 v=512 morph_random2 tok/ch=0.311 bpc=2.399 F1m=0.916 F1u=0.905 L1=288 L2=203 t=0.0s
+seed=43 v=512 morph_near2  tok/ch=0.308 bpc=2.363 F1m=0.923 F1u=0.913 L1=293 L2=198 t=0.0s
+seed=44 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18656, 'n_test_words': 4384}
+seed=44 v=512 flat      tok/ch=0.315 bpc=2.443 F1m=0.901 F1u=0.888 L1=491 t=2.9s
+seed=44 v=512 frequency tok/ch=0.315 bpc=2.443 F1m=0.901 F1u=0.888 L1=294 L2=197 t=0.0s
+seed=44 v=512 morph     tok/ch=0.326 bpc=2.467 F1m=0.889 F1u=0.872 L1=279 L2=212 t=0.0s
+seed=44 v=512 random_closed tok/ch=0.318 bpc=2.483 F1m=0.880 F1u=0.863 L1=294 L2=197 t=0.0s
+seed=44 v=512 morph_const2 tok/ch=0.319 bpc=2.493 F1m=0.881 F1u=0.863 L1=294 L2=197 t=0.0s
+seed=44 v=512 morph_random2 tok/ch=0.315 bpc=2.437 F1m=0.903 F1u=0.891 L1=289 L2=202 t=0.0s
+seed=44 v=512 morph_near2  tok/ch=0.315 bpc=2.439 F1m=0.900 F1u=0.887 L1=293 L2=198 t=0.0s
+seed=45 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18641, 'n_test_words': 4399}
+seed=45 v=512 flat      tok/ch=0.312 bpc=2.394 F1m=0.920 F1u=0.914 L1=491 t=2.3s
+seed=45 v=512 frequency tok/ch=0.312 bpc=2.394 F1m=0.920 F1u=0.914 L1=294 L2=197 t=0.0s
+seed=45 v=512 morph     tok/ch=0.313 bpc=2.379 F1m=0.937 F1u=0.931 L1=280 L2=211 t=0.0s
+seed=45 v=512 random_closed tok/ch=0.314 bpc=2.413 F1m=0.917 F1u=0.910 L1=294 L2=197 t=0.0s
+seed=45 v=512 morph_const2 tok/ch=0.317 bpc=2.441 F1m=0.897 F1u=0.884 L1=294 L2=197 t=0.0s
+seed=45 v=512 morph_random2 tok/ch=0.312 bpc=2.391 F1m=0.920 F1u=0.914 L1=293 L2=198 t=0.0s
+seed=45 v=512 morph_near2  tok/ch=0.314 bpc=2.389 F1m=0.925 F1u=0.919 L1=288 L2=203 t=0.0s
+seed=46 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18662, 'n_test_words': 4378}
+seed=46 v=512 flat      tok/ch=0.308 bpc=2.368 F1m=0.924 F1u=0.918 L1=491 t=2.3s
+seed=46 v=512 frequency tok/ch=0.308 bpc=2.368 F1m=0.924 F1u=0.918 L1=294 L2=197 t=0.0s
+seed=46 v=512 morph     tok/ch=0.308 bpc=2.358 F1m=0.927 F1u=0.920 L1=278 L2=213 t=0.0s
+seed=46 v=512 random_closed tok/ch=0.315 bpc=2.401 F1m=0.904 F1u=0.894 L1=294 L2=197 t=0.0s
+seed=46 v=512 morph_const2 tok/ch=0.310 bpc=2.392 F1m=0.916 F1u=0.907 L1=294 L2=197 t=0.0s
+seed=46 v=512 morph_random2 tok/ch=0.309 bpc=2.370 F1m=0.921 F1u=0.915 L1=292 L2=199 t=0.0s
+seed=46 v=512 morph_near2  tok/ch=0.310 bpc=2.382 F1m=0.923 F1u=0.915 L1=287 L2=204 t=0.0s
+seed=47 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18667, 'n_test_words': 4373}
+seed=47 v=512 flat      tok/ch=0.314 bpc=2.442 F1m=0.905 F1u=0.897 L1=491 t=2.7s
+seed=47 v=512 frequency tok/ch=0.314 bpc=2.442 F1m=0.905 F1u=0.897 L1=294 L2=197 t=0.0s
+seed=47 v=512 morph     tok/ch=0.314 bpc=2.429 F1m=0.909 F1u=0.900 L1=294 L2=197 t=0.0s
+seed=47 v=512 random_closed tok/ch=0.326 bpc=2.538 F1m=0.875 F1u=0.855 L1=293 L2=198 t=0.0s
+seed=47 v=512 morph_const2 tok/ch=0.316 bpc=2.451 F1m=0.893 F1u=0.882 L1=294 L2=197 t=0.0s
+seed=47 v=512 morph_random2 tok/ch=0.313 bpc=2.433 F1m=0.910 F1u=0.901 L1=292 L2=199 t=0.0s
+seed=47 v=512 morph_near2  tok/ch=0.313 bpc=2.418 F1m=0.912 F1u=0.904 L1=293 L2=198 t=0.0s
+seed=48 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18655, 'n_test_words': 4385}
+seed=48 v=512 flat      tok/ch=0.319 bpc=2.512 F1m=0.869 F1u=0.853 L1=491 t=2.4s
+seed=48 v=512 frequency tok/ch=0.319 bpc=2.512 F1m=0.869 F1u=0.853 L1=294 L2=197 t=0.0s
+seed=48 v=512 morph     tok/ch=0.329 bpc=2.565 F1m=0.881 F1u=0.857 L1=258 L2=233 t=0.0s
+seed=48 v=512 random_closed tok/ch=0.320 bpc=2.527 F1m=0.864 F1u=0.847 L1=294 L2=197 t=0.0s
+seed=48 v=512 morph_const2 tok/ch=0.333 bpc=2.637 F1m=0.828 F1u=0.798 L1=288 L2=203 t=0.0s
+seed=48 v=512 morph_random2 tok/ch=0.319 bpc=2.510 F1m=0.870 F1u=0.854 L1=290 L2=201 t=0.0s
+seed=48 v=512 morph_near2  tok/ch=0.316 bpc=2.468 F1m=0.879 F1u=0.865 L1=292 L2=199 t=0.0s
+seed=49 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18666, 'n_test_words': 4374}
+seed=49 v=512 flat      tok/ch=0.314 bpc=2.455 F1m=0.876 F1u=0.868 L1=491 t=2.8s
+seed=49 v=512 frequency tok/ch=0.314 bpc=2.455 F1m=0.876 F1u=0.868 L1=294 L2=197 t=0.0s
+seed=49 v=512 morph     tok/ch=0.317 bpc=2.485 F1m=0.877 F1u=0.866 L1=288 L2=203 t=0.0s
+seed=49 v=512 random_closed tok/ch=0.326 bpc=2.578 F1m=0.839 F1u=0.819 L1=294 L2=197 t=0.0s
+seed=49 v=512 morph_const2 tok/ch=0.327 bpc=2.574 F1m=0.841 F1u=0.821 L1=294 L2=197 t=0.0s
+seed=49 v=512 morph_random2 tok/ch=0.314 bpc=2.452 F1m=0.876 F1u=0.867 L1=293 L2=198 t=0.0s
+seed=49 v=512 morph_near2  tok/ch=0.314 bpc=2.450 F1m=0.875 F1u=0.867 L1=294 L2=197 t=0.0s
+seed=50 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18668, 'n_test_words': 4372}
+seed=50 v=512 flat      tok/ch=0.311 bpc=2.491 F1m=0.817 F1u=0.806 L1=491 t=2.3s
+seed=50 v=512 frequency tok/ch=0.311 bpc=2.491 F1m=0.817 F1u=0.806 L1=294 L2=197 t=0.0s
+seed=50 v=512 morph     tok/ch=0.311 bpc=2.462 F1m=0.830 F1u=0.819 L1=294 L2=197 t=0.0s
+seed=50 v=512 random_closed tok/ch=0.320 bpc=2.557 F1m=0.783 F1u=0.767 L1=293 L2=198 t=0.0s
+seed=50 v=512 morph_const2 tok/ch=0.314 bpc=2.506 F1m=0.811 F1u=0.798 L1=294 L2=197 t=0.0s
+seed=50 v=512 morph_random2 tok/ch=0.312 bpc=2.489 F1m=0.817 F1u=0.806 L1=292 L2=199 t=0.0s
+seed=50 v=512 morph_near2  tok/ch=0.312 bpc=2.488 F1m=0.823 F1u=0.811 L1=291 L2=200 t=0.0s
+seed=51 morphology=variable split=pair {'n_duplicate_strings': 0, 'n_dropped_test': 0, 'n_held_pr': 192, 'n_held_rs': 144, 'n_test_unseen_pr': 2304, 'n_test_unseen_rs': 2304, 'n_test_all_pairs_seen': 0, 'n_train_words': 18663, 'n_test_words': 4377}
+seed=51 v=512 flat      tok/ch=0.318 bpc=2.535 F1m=0.816 F1u=0.803 L1=491 t=2.3s
+seed=51 v=512 frequency tok/ch=0.318 bpc=2.535 F1m=0.816 F1u=0.803 L1=294 L2=197 t=0.0s
+seed=51 v=512 morph     tok/ch=0.316 bpc=2.446 F1m=0.864 F1u=0.853 L1=290 L2=201 t=0.0s
+seed=51 v=512 random_closed tok/ch=0.324 bpc=2.581 F1m=0.805 F1u=0.788 L1=293 L2=198 t=0.0s
+seed=51 v=512 morph_const2 tok/ch=0.322 bpc=2.543 F1m=0.819 F1u=0.802 L1=294 L2=197 t=0.0s
+seed=51 v=512 morph_random2 tok/ch=0.327 bpc=2.607 F1m=0.798 F1u=0.776 L1=287 L2=204 t=0.0s
+seed=51 v=512 morph_near2  tok/ch=0.319 bpc=2.522 F1m=0.818 F1u=0.806 L1=292 L2=199 t=0.0s
+
+wrote results/f1f_variable_pair.csv (70 runs)
