@@ -1,0 +1,4 @@
+corpus,method,n_levels,vocab_target,vocab_actual,seed,train_seconds,tokens_per_char,bits_per_char,boundary_precision,boundary_recall,boundary_f1,decode_exact
+code,hier2,2,256,256,42,1.4,0.516605812034212,3.742954069558955,,,,1.0
+code,hier2,2,512,512,42,1.92,0.405166808382934,3.098169896928279,,,,1.0
+code,hier2,2,1024,1024,42,3.04,0.3512229280248087,2.745976297075775,,,,1.0

@@ -1,0 +1,4 @@
+corpus,method,n_levels,vocab_target,vocab_actual,seed,train_seconds,tokens_per_char,bits_per_char,boundary_precision,boundary_recall,boundary_f1,decode_exact
+code,flat,1,256,256,42,1.09,0.516605812034212,3.742954069558955,,,,1.0
+code,flat,1,512,512,42,2.39,0.40524183464212477,3.0977197488998223,,,,1.0
+code,flat,1,1024,1024,42,2.61,0.3526484269494323,2.7564962404730644,,,,1.0
