@@ -1,0 +1,7 @@
+seed=42 pearson=0.997378 spearman=0.999995 mean|dscore|=0.0045 max|dscore|=0.4955 L1 overlap=294/294 total counts u/f=62109/932893
+seed=43 pearson=0.999485 spearman=0.999999 mean|dscore|=0.0017 max|dscore|=0.2794 L1 overlap=294/294 total counts u/f=63638/975394
+seed=44 pearson=0.998768 spearman=0.999988 mean|dscore|=0.0032 max|dscore|=0.3367 L1 overlap=294/294 total counts u/f=63325/1011377
+seed=45 pearson=0.998526 spearman=0.999998 mean|dscore|=0.0029 max|dscore|=0.3886 L1 overlap=294/294 total counts u/f=63085/947263
+seed=46 pearson=0.999448 spearman=0.999999 mean|dscore|=0.0015 max|dscore|=0.3334 L1 overlap=294/294 total counts u/f=62415/961772
+
+wrote results/redteam/w1_15_weighting_diagnostic.csv

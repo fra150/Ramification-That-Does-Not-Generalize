@@ -1,0 +1,53 @@
+seed=42 k=248 actual=241 F1=0.8859 (flat 0.8665, delta +0.0194) bpc=2.3124 rand F1=0.8487 (delta -0.0178) L1 intra/cross/unseen=241/0/0 for ['unique_halfA']
+seed=42 k=250 actual=246 F1=0.8865 (flat 0.8665, delta +0.0200) bpc=2.3086 rand F1=0.8487 (delta -0.0178) L1 intra/cross/unseen=246/0/0 for ['freq_halfA']
+seed=42 k=254 actual=254 F1=0.8841 (flat 0.8665, delta +0.0176) bpc=2.3157 rand F1=0.8487 (delta -0.0178) L1 intra/cross/unseen=250/3/1 for ['freq_halfB']
+seed=42 k=257 actual=257 F1=0.8808 (flat 0.8665, delta +0.0143) bpc=2.3080 rand F1=0.8487 (delta -0.0178) L1 intra/cross/unseen=250/6/1 for ['unique_halfB']
+seed=42 k=291 actual=291 F1=0.8706 (flat 0.8665, delta +0.0041) bpc=2.3484 rand F1=0.8757 (delta +0.0092) L1 intra/cross/unseen=250/40/1 for ['root_cv']
+  compare seed=42 unique_halfA: held-out F1=0.8897 vs full-top248=0.8859 (heldout-fulltop=+0.0038)
+  compare seed=42 freq_halfA: held-out F1=0.8903 vs full-top250=0.8865 (heldout-fulltop=+0.0038)
+  compare seed=42 freq_halfB: held-out F1=0.8877 vs full-top254=0.8841 (heldout-fulltop=+0.0036)
+  compare seed=42 unique_halfB: held-out F1=0.8841 vs full-top257=0.8808 (heldout-fulltop=+0.0033)
+  compare seed=42 root_cv: held-out F1=0.8734 vs full-top291=0.8706 (heldout-fulltop=+0.0027)
+seed=42 done in 36.9s
+seed=43 k=256 actual=255 F1=0.8251 (flat 0.8011, delta +0.0240) bpc=2.3766 rand F1=0.7959 (delta -0.0052) L1 intra/cross/unseen=254/0/1 for ['freq_halfB']
+seed=43 k=259 actual=259 F1=0.8204 (flat 0.8011, delta +0.0193) bpc=2.3546 rand F1=0.7959 (delta -0.0052) L1 intra/cross/unseen=255/3/1 for ['unique_halfB']
+seed=43 k=261 actual=261 F1=0.8204 (flat 0.8011, delta +0.0193) bpc=2.3546 rand F1=0.7959 (delta -0.0052) L1 intra/cross/unseen=255/5/1 for ['freq_halfA', 'unique_halfA']
+seed=43 k=289 actual=289 F1=0.8124 (flat 0.8011, delta +0.0113) bpc=2.3634 rand F1=0.8017 (delta +0.0006) L1 intra/cross/unseen=255/33/1 for ['root_cv']
+  compare seed=43 freq_halfB: held-out F1=0.8264 vs full-top256=0.8251 (heldout-fulltop=+0.0013)
+  compare seed=43 unique_halfB: held-out F1=0.8262 vs full-top259=0.8204 (heldout-fulltop=+0.0058)
+  compare seed=43 freq_halfA: held-out F1=0.8204 vs full-top261=0.8204 (heldout-fulltop=+0.0000)
+  compare seed=43 unique_halfA: held-out F1=0.8204 vs full-top261=0.8204 (heldout-fulltop=+0.0000)
+  compare seed=43 root_cv: held-out F1=0.8118 vs full-top289=0.8124 (heldout-fulltop=-0.0006)
+seed=43 done in 30.0s
+seed=44 k=277 actual=276 F1=0.9278 (flat 0.9142, delta +0.0136) bpc=2.1864 rand F1=0.8677 (delta -0.0464) L1 intra/cross/unseen=276/0/0 for ['freq_halfB']
+seed=44 k=279 actual=279 F1=0.9266 (flat 0.9142, delta +0.0124) bpc=2.1888 rand F1=0.8899 (delta -0.0243) L1 intra/cross/unseen=278/0/1 for ['freq_halfA', 'unique_halfA', 'unique_halfB']
+seed=44 k=291 actual=291 F1=0.9238 (flat 0.9142, delta +0.0096) bpc=2.2104 rand F1=0.8888 (delta -0.0254) L1 intra/cross/unseen=278/12/1 for ['root_cv']
+  compare seed=44 freq_halfB: held-out F1=0.9278 vs full-top277=0.9278 (heldout-fulltop=+0.0000)
+  compare seed=44 freq_halfA: held-out F1=0.9266 vs full-top279=0.9266 (heldout-fulltop=+0.0000)
+  compare seed=44 unique_halfA: held-out F1=0.9266 vs full-top279=0.9266 (heldout-fulltop=+0.0000)
+  compare seed=44 unique_halfB: held-out F1=0.9266 vs full-top279=0.9266 (heldout-fulltop=+0.0000)
+  compare seed=44 root_cv: held-out F1=0.9242 vs full-top291=0.9238 (heldout-fulltop=+0.0004)
+seed=44 done in 25.8s
+seed=45 k=266 actual=263 F1=0.9250 (flat 0.8935, delta +0.0315) bpc=2.1958 rand F1=0.8924 (delta -0.0011) L1 intra/cross/unseen=263/0/0 for ['freq_halfA']
+seed=45 k=267 actual=265 F1=0.9259 (flat 0.8935, delta +0.0324) bpc=2.1952 rand F1=0.8907 (delta -0.0028) L1 intra/cross/unseen=265/0/0 for ['freq_halfB']
+seed=45 k=270 actual=270 F1=0.9240 (flat 0.8935, delta +0.0305) bpc=2.2010 rand F1=0.8910 (delta -0.0025) L1 intra/cross/unseen=267/2/1 for ['unique_halfA']
+seed=45 k=271 actual=271 F1=0.9159 (flat 0.8935, delta +0.0224) bpc=2.1964 rand F1=0.8910 (delta -0.0025) L1 intra/cross/unseen=267/3/1 for ['unique_halfB']
+seed=45 k=291 actual=291 F1=0.9075 (flat 0.8935, delta +0.0140) bpc=2.2189 rand F1=0.8916 (delta -0.0019) L1 intra/cross/unseen=267/23/1 for ['root_cv']
+  compare seed=45 freq_halfA: held-out F1=0.9250 vs full-top266=0.9250 (heldout-fulltop=+0.0000)
+  compare seed=45 freq_halfB: held-out F1=0.9259 vs full-top267=0.9259 (heldout-fulltop=+0.0000)
+  compare seed=45 unique_halfA: held-out F1=0.9247 vs full-top270=0.9240 (heldout-fulltop=+0.0007)
+  compare seed=45 unique_halfB: held-out F1=0.9240 vs full-top271=0.9159 (heldout-fulltop=+0.0081)
+  compare seed=45 root_cv: held-out F1=0.9170 vs full-top291=0.9075 (heldout-fulltop=+0.0095)
+seed=45 done in 35.0s
+seed=46 k=253 actual=253 F1=0.8066 (flat 0.8029, delta +0.0037) bpc=2.3524 rand F1=0.7918 (delta -0.0111) L1 intra/cross/unseen=233/19/1 for ['freq_halfA', 'unique_halfA']
+seed=46 k=255 actual=255 F1=0.8066 (flat 0.8029, delta +0.0037) bpc=2.3524 rand F1=0.7918 (delta -0.0111) L1 intra/cross/unseen=233/21/1 for ['freq_halfB']
+seed=46 k=257 actual=257 F1=0.8066 (flat 0.8029, delta +0.0037) bpc=2.3524 rand F1=0.7932 (delta -0.0097) L1 intra/cross/unseen=233/23/1 for ['unique_halfB']
+seed=46 k=290 actual=290 F1=0.8057 (flat 0.8029, delta +0.0028) bpc=2.3578 rand F1=0.7949 (delta -0.0080) L1 intra/cross/unseen=233/56/1 for ['root_cv']
+  compare seed=46 freq_halfA: held-out F1=0.8103 vs full-top253=0.8066 (heldout-fulltop=+0.0037)
+  compare seed=46 unique_halfA: held-out F1=0.8094 vs full-top253=0.8066 (heldout-fulltop=+0.0029)
+  compare seed=46 freq_halfB: held-out F1=0.8066 vs full-top255=0.8066 (heldout-fulltop=+0.0000)
+  compare seed=46 unique_halfB: held-out F1=0.8066 vs full-top257=0.8066 (heldout-fulltop=+0.0000)
+  compare seed=46 root_cv: held-out F1=0.8050 vs full-top290=0.8057 (heldout-fulltop=-0.0007)
+seed=46 done in 30.0s
+
+wrote results/redteam/w1_15_topk_control.csv (21 rows)

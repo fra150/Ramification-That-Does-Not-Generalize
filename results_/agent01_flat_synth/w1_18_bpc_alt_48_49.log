@@ -1,0 +1,20 @@
+seed=48 done
+seed=49 done
+
+== morph - frequency, paired over 10 seeds ==
+bpc_official_uniform_heldout     mean=-0.04195 t=  -5.61 CI95=[-0.05662,-0.02729] W/L/T=0/2/0
+bpc_indist_zipf_90_10            mean=+0.01811 t=  +3.43 CI95=[+0.00777,+0.02846] W/L/T=2/0/0
+bpc_bigram_lam0.5                mean=-0.00514 t=  -4.90 CI95=[-0.00720,-0.00309] W/L/T=0/2/0
+bpc_bigram_lam0.8                mean=-0.00110 t=  -1.97 CI95=[-0.00219,-0.00000] W/L/T=0/2/0
+bpc_kt_adaptive                  mean=-0.02582 t=  -5.31 CI95=[-0.03534,-0.01629] W/L/T=0/2/0
+tpc_uniform_heldout              mean=-0.00033 t=  -1.18 CI95=[-0.00088,+0.00022] W/L/T=0/2/0
+tpc_indist_heldout               mean=+0.00550 t=  +5.38 CI95=[+0.00350,+0.00751] W/L/T=2/0/0
+
+== same, random_closed - frequency ==
+bpc_official_uniform_heldout     mean=+0.04926 t=  +2.91 CI95=[+0.01605,+0.08246] W/L/T=2/0/0
+bpc_indist_zipf_90_10            mean=+0.09681 t=  +2.48 CI95=[+0.02043,+0.17320] W/L/T=2/0/0
+bpc_bigram_lam0.5                mean=+0.02196 t=  +6.68 CI95=[+0.01551,+0.02841] W/L/T=2/0/0
+bpc_bigram_lam0.8                mean=+0.01679 t=  +9.04 CI95=[+0.01315,+0.02043] W/L/T=2/0/0
+bpc_kt_adaptive                  mean=+0.06549 t=  +2.92 CI95=[+0.02152,+0.10946] W/L/T=2/0/0
+tpc_uniform_heldout              mean=+0.00890 t=  +2.36 CI95=[+0.00152,+0.01628] W/L/T=2/0/0
+tpc_indist_heldout               mean=+0.01509 t=  +2.26 CI95=[+0.00197,+0.02820] W/L/T=2/0/0

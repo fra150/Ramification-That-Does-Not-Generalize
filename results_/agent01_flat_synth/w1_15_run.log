@@ -1,0 +1,67 @@
+seed=42 train=42.3s types=9216 types_seen=7478 cache_mismatch=0,0
+seed=42 freq_all F1=0.8665 unique_all F1=0.8706 halfA F1=0.8903 halfB F1=0.8877 rootCV F1=0.8734 (freq 0.8665)
+seed=43 train=38.9s types=9216 types_seen=7482 cache_mismatch=0,
+seed=43 freq_all F1=0.8011 unique_all F1=0.8108 halfA F1=0.8204 halfB F1=0.8264 rootCV F1=0.8118 (freq 0.8011)
+seed=44 train=33.6s types=9216 types_seen=7483 cache_mismatch=0,
+seed=44 freq_all F1=0.9142 unique_all F1=0.9238 halfA F1=0.9266 halfB F1=0.9278 rootCV F1=0.9242 (freq 0.9142)
+seed=45 train=25.8s types=9216 types_seen=7405 cache_mismatch=0,
+seed=45 freq_all F1=0.8935 unique_all F1=0.9035 halfA F1=0.9250 halfB F1=0.9259 rootCV F1=0.9170 (freq 0.8935)
+seed=46 train=25.5s types=9216 types_seen=7493 cache_mismatch=0,
+seed=46 freq_all F1=0.8029 unique_all F1=0.8030 halfA F1=0.8103 halfB F1=0.8066 rootCV F1=0.8050 (freq 0.8029)
+
+Paired deltas across 5 seeds (morph - control)
+  freq_all (published design) [vs frequency] boundary_f1   mean=+0.0067 t=+3.40 CI95=[+0.0012,+0.0122] W/L/T=5/0/0
+  freq_all (published design) [vs size-matched freq] boundary_f1   mean=+0.0067 t=+3.40 CI95=[+0.0012,+0.0122] W/L/T=5/0/0
+  unique_all [vs frequency]                  boundary_f1   mean=+0.0067 t=+3.40 CI95=[+0.0012,+0.0122] W/L/T=5/0/0
+  unique_all [vs size-matched freq]          boundary_f1   mean=+0.0067 t=+3.40 CI95=[+0.0012,+0.0122] W/L/T=5/0/0
+  random_closed control [vs frequency]       boundary_f1   mean=-0.0052 t=-0.88 CI95=[-0.0214,+0.0111] W/L/T=2/3/0
+  freq_half mean(A,B) [vs frequency]         boundary_f1   mean=+0.0191 t=+4.22 CI95=[+0.0065,+0.0316] W/L/T=5/0/0
+  freq_halfA [vs frequency]                  boundary_f1   mean=+0.0189 t=+4.47 CI95=[+0.0072,+0.0306] W/L/T=5/0/0
+  freq_halfB [vs frequency]                  boundary_f1   mean=+0.0192 t=+3.90 CI95=[+0.0055,+0.0329] W/L/T=5/0/0
+  freq_half mean(A,B) [vs size-matched freq] boundary_f1   mean=+0.0191 t=+4.22 CI95=[+0.0065,+0.0316] W/L/T=5/0/0
+  freq_halfA [vs size-matched freq]          boundary_f1   mean=+0.0189 t=+4.47 CI95=[+0.0072,+0.0306] W/L/T=5/0/0
+  freq_halfB [vs size-matched freq]          boundary_f1   mean=+0.0192 t=+3.90 CI95=[+0.0055,+0.0329] W/L/T=5/0/0
+  unique_half mean(A,B) [vs frequency]       boundary_f1   mean=+0.0182 t=+4.15 CI95=[+0.0060,+0.0304] W/L/T=5/0/0
+  unique_half mean(A,B) [vs size-matched freq] boundary_f1   mean=+0.0182 t=+4.15 CI95=[+0.0060,+0.0304] W/L/T=5/0/0
+  root_cv (10-fold by root) [vs frequency]   boundary_f1   mean=+0.0107 t=+2.99 CI95=[+0.0008,+0.0205] W/L/T=5/0/0
+  root_cv (10-fold by root) [vs size-matched freq] boundary_f1   mean=+0.0107 t=+2.99 CI95=[+0.0008,+0.0205] W/L/T=5/0/0
+  freq_all (published design) [vs frequency] bits_per_char mean=-0.0168 t=-2.95 CI95=[-0.0327,-0.0010] W/L/T=0/5/0
+  freq_all (published design) [vs size-matched freq] bits_per_char mean=-0.0168 t=-2.95 CI95=[-0.0327,-0.0010] W/L/T=0/5/0
+  unique_all [vs frequency]                  bits_per_char mean=-0.0168 t=-2.95 CI95=[-0.0327,-0.0010] W/L/T=0/5/0
+  unique_all [vs size-matched freq]          bits_per_char mean=-0.0168 t=-2.95 CI95=[-0.0327,-0.0010] W/L/T=0/5/0
+  random_closed control [vs frequency]       bits_per_char mean=+0.0323 t=+1.82 CI95=[-0.0170,+0.0815] W/L/T=4/1/0
+  freq_half mean(A,B) [vs frequency]         bits_per_char mean=-0.0425 t=-5.00 CI95=[-0.0661,-0.0189] W/L/T=0/5/0
+  freq_halfA [vs frequency]                  bits_per_char mean=-0.0463 t=-5.89 CI95=[-0.0682,-0.0245] W/L/T=0/5/0
+  freq_halfB [vs frequency]                  bits_per_char mean=-0.0387 t=-4.02 CI95=[-0.0654,-0.0120] W/L/T=0/5/0
+  freq_half mean(A,B) [vs size-matched freq] bits_per_char mean=-0.0425 t=-5.00 CI95=[-0.0661,-0.0189] W/L/T=0/5/0
+  freq_halfA [vs size-matched freq]          bits_per_char mean=-0.0463 t=-5.89 CI95=[-0.0682,-0.0245] W/L/T=0/5/0
+  freq_halfB [vs size-matched freq]          bits_per_char mean=-0.0387 t=-4.02 CI95=[-0.0654,-0.0120] W/L/T=0/5/0
+  unique_half mean(A,B) [vs frequency]       bits_per_char mean=-0.0402 t=-5.50 CI95=[-0.0605,-0.0199] W/L/T=0/5/0
+  unique_half mean(A,B) [vs size-matched freq] bits_per_char mean=-0.0402 t=-5.50 CI95=[-0.0605,-0.0199] W/L/T=0/5/0
+  root_cv (10-fold by root) [vs frequency]   bits_per_char mean=-0.0252 t=-3.26 CI95=[-0.0467,-0.0037] W/L/T=0/5/0
+  root_cv (10-fold by root) [vs size-matched freq] bits_per_char mean=-0.0263 t=-3.40 CI95=[-0.0477,-0.0048] W/L/T=0/5/0
+
+Held-out training-word evaluation (provenance and eval words disjoint)
+  freq_half A->B [vs frequency]              boundary_f1   mean=+0.0201 t=+4.30 CI95=[+0.0071,+0.0331] W/L/T=5/0/0
+  freq_half B->A [vs frequency]              boundary_f1   mean=+0.0197 t=+4.32 CI95=[+0.0070,+0.0324] W/L/T=5/0/0
+  freq_half mean, held-out words [vs frequency] boundary_f1   mean=+0.0199 t=+4.40 CI95=[+0.0074,+0.0325] W/L/T=5/0/0
+  unique_half mean, held-out words [vs frequency] boundary_f1   mean=+0.0190 t=+4.50 CI95=[+0.0072,+0.0307] W/L/T=5/0/0
+  freq_half A->B [vs size-matched freq]      boundary_f1   mean=+0.0201 t=+4.30 CI95=[+0.0071,+0.0331] W/L/T=5/0/0
+  freq_half B->A [vs size-matched freq]      boundary_f1   mean=+0.0197 t=+4.32 CI95=[+0.0070,+0.0324] W/L/T=5/0/0
+  freq_half mean, held-out words [vs size-matched freq] boundary_f1   mean=+0.0199 t=+4.40 CI95=[+0.0074,+0.0325] W/L/T=5/0/0
+  unique_half mean, held-out words [vs size-matched freq] boundary_f1   mean=+0.0190 t=+4.50 CI95=[+0.0072,+0.0307] W/L/T=5/0/0
+
+Direct weighting effect (unique - frequency-weighted provenance)
+  unique_all - freq_all boundary_f1   mean=+0.0000 t=+inf CI95=[+0.0000,+0.0000] W/L/T=0/0/5
+  unique_all - freq_all bits_per_char mean=+0.0000 t=+inf CI95=[+0.0000,+0.0000] W/L/T=0/0/5
+
+Level-1 assignment similarity (Jaccard, mean over seeds)
+  freq_halfA_vs_freq_all             0.884
+  freq_halfA_vs_freq_halfB           0.967
+  freq_halfB_vs_freq_all             0.878
+  unique_all_vs_freq_all             1.000
+  unique_halfA_vs_freq_all           0.888
+  unique_halfA_vs_unique_halfB       0.979
+  unique_halfB_vs_freq_all           0.891
+
+wrote results/redteam/w1_15_levels_weighting_*.csv

@@ -1,0 +1,25 @@
+Held-out provenance vs full provenance truncated to the same L1 size
+  freq_halfA      vs full-topk boundary_f1   mean=+0.0015 t=+1.63 CI95=[-0.0011,+0.0041] W/L/T=2/0/3
+  freq_halfA      vs full-topk bits_per_char mean=-0.0047 t=-1.36 CI95=[-0.0143,+0.0049] W/L/T=0/3/2
+  freq_halfB      vs full-topk boundary_f1   mean=+0.0010 t=+1.40 CI95=[-0.0010,+0.0029] W/L/T=2/0/3
+  freq_halfB      vs full-topk bits_per_char mean=-0.0022 t=-1.14 CI95=[-0.0076,+0.0032] W/L/T=0/2/3
+  unique_halfA    vs full-topk boundary_f1   mean=+0.0015 t=+1.86 CI95=[-0.0007,+0.0036] W/L/T=3/0/2
+  unique_halfA    vs full-topk bits_per_char mean=-0.0047 t=-1.41 CI95=[-0.0141,+0.0046] W/L/T=0/4/1
+  unique_halfB    vs full-topk boundary_f1   mean=+0.0034 t=+2.15 CI95=[-0.0010,+0.0079] W/L/T=3/0/2
+  unique_halfB    vs full-topk bits_per_char mean=+0.0058 t=+1.87 CI95=[-0.0028,+0.0144] W/L/T=3/0/2
+  root_cv         vs full-topk boundary_f1   mean=+0.0023 t=+1.19 CI95=[-0.0030,+0.0076] W/L/T=3/2/0
+  root_cv         vs full-topk bits_per_char mean=-0.0033 t=-0.98 CI95=[-0.0126,+0.0060] W/L/T=2/3/0
+
+Full-provenance morph truncated to held-out L1 sizes, vs frequency
+  per-seed mean over k boundary_f1   mean=+0.0150 t=+4.02 CI95=[+0.0046,+0.0254] W/L/T=5/0/0 (n=5)
+  per-seed mean over k bits_per_char mean=-0.0354 t=-5.13 CI95=[-0.0546,-0.0162] W/L/T=0/5/0 (n=5)
+
+Full-provenance morph vs size-matched random-closed (same k)
+  morph - random boundary_f1   mean=+0.0271 t=+5.44 CI95=[+0.0133,+0.0409] W/L/T=5/0/0 (n=5)
+  morph - random bits_per_char mean=-0.0968 t=-6.17 CI95=[-0.1404,-0.0533] W/L/T=0/5/0 (n=5)
+
+Size-matched random-closed vs frequency
+  random - frequency boundary_f1   mean=-0.0121 t=-2.26 CI95=[-0.0269,+0.0028] W/L/T=0/5/0 (n=5)
+  random - frequency bits_per_char mean=+0.0614 t=+3.56 CI95=[+0.0136,+0.1092] W/L/T=5/0/0 (n=5)
+
+wrote results/redteam/w1_15_topk_comparison.csv

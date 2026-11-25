@@ -1,0 +1,11 @@
+seed=47 done
+seed=48 done
+seed=49 done
+seed=50 done
+seed=51 done
+
+== morph - frequency, in-distribution 90/10 ==
+unseen_tokens    mean=+0.000000 sd=0.000000 t=   +inf W/L/T=0/0/5
+bpc_add0.1       mean=+0.015176 sd=0.006712 t=  +5.06 W/L/T=5/0/0
+bpc_seen_only    mean=+0.015176 sd=0.006712 t=  +5.06 W/L/T=5/0/0
+tpc              mean=+0.004608 sd=0.001678 t=  +6.14 W/L/T=5/0/0

@@ -1,0 +1,85 @@
+provenance_match_official=True rules=489 (seed 42)
+seed=42 L=19370 frequency[tpc=0.3088,un=0,bpc=2.3539] morph[tpc=0.3094,un=0,bpc=2.3484]
+seed=43 L=19688 frequency[tpc=0.3054,un=0,bpc=2.3920] morph[tpc=0.3046,un=0,bpc=2.3678]
+seed=44 L=19567 frequency[tpc=0.3020,un=0,bpc=2.2403] morph[tpc=0.3021,un=2,bpc=2.2104]
+seed=45 L=19530 frequency[tpc=0.3012,un=0,bpc=2.2553] morph[tpc=0.3018,un=0,bpc=2.2317]
+seed=46 L=19403 frequency[tpc=0.3029,un=0,bpc=2.3671] morph[tpc=0.3029,un=0,bpc=2.3661]
+seed=47 L=19630 frequency[tpc=0.3007,un=0,bpc=2.2729] morph[tpc=0.3011,un=0,bpc=2.2481]
+seed=48 L=19675 frequency[tpc=0.3034,un=0,bpc=2.2827] morph[tpc=0.3028,un=0,bpc=2.2333]
+seed=49 L=19500 frequency[tpc=0.3022,un=0,bpc=2.2413] morph[tpc=0.3022,un=0,bpc=2.2068]
+seed=50 L=19460 frequency[tpc=0.3038,un=0,bpc=2.2872] morph[tpc=0.3036,un=1,bpc=2.2427]
+seed=51 L=19586 frequency[tpc=0.3049,un=0,bpc=2.3107] morph[tpc=0.3053,un=0,bpc=2.2902]
+
+== reproduction of official bpc ==
+max |recomputed - CSV| = 6.706e-14 over 40 rows
+
+== paired differences, morph - frequency, v512, 10 seeds ==
+bpc_official_a0.1        mean=-0.02579 t=  -5.38 CI95=[-0.03662,-0.01495] W/L/T=0/10/0
+bpc_add1_metrics_py      mean=-0.02578 t=  -5.38 CI95=[-0.03662,-0.01494] W/L/T=0/10/0
+bpc_add0.01              mean=-0.02574 t=  -5.39 CI95=[-0.03656,-0.01493] W/L/T=0/10/0
+bpc_add0.001             mean=-0.02569 t=  -5.39 CI95=[-0.03648,-0.01490] W/L/T=0/10/0
+bpc_add1e-6              mean=-0.02554 t=  -5.39 CI95=[-0.03626,-0.01482] W/L/T=0/10/0
+bpc_witten_bell          mean=-0.02593 t=  -5.38 CI95=[-0.03683,-0.01503] W/L/T=0/10/0
+bpc_fixed_denom_flatN    mean=-0.03342 t=  -5.24 CI95=[-0.04786,-0.01898] W/L/T=0/10/0
+bpc_seen_only            mean=-0.02611 t=  -5.37 CI95=[-0.03711,-0.01511] W/L/T=0/10/0
+bpc_train_entropy        mean=-0.02014 t=  -4.72 CI95=[-0.02978,-0.01049] W/L/T=1/9/0
+bpc_test_entropy         mean=-0.01556 t=  -5.16 CI95=[-0.02239,-0.00874] W/L/T=1/9/0
+bpc_uniform9             mean=+0.00033 t=  +0.25 CI95=[-0.00272,+0.00338] W/L/T=5/4/1
+bpc_train_stream_insample mean=+0.00947 t=  +3.73 CI95=[+0.00373,+0.01521] W/L/T=9/1/0
+tokens_per_char          mean=+0.00004 t=  +0.25 CI95=[-0.00030,+0.00038] W/L/T=5/4/1
+unseen_tokens            mean=+0.30000 t=  +1.41 CI95=[-0.18280,+0.78280] W/L/T=2/0/8
+boundary_f1              mean=+0.00924 t=  +6.52 CI95=[+0.00604,+0.01245] W/L/T=10/0/0
+
+== per-seed decomposition (official alpha=0.1) ==
+seed mode        tpc    bpc    unseen/U  unseen_share  bpc_seen  bpc_unseen  H_test
+42 frequency   0.3088 2.3539    0/5982      0.000 2.3539 0.0000 6.7046
+42 morph       0.3094 2.3484    0/5993      0.000 2.3484 0.0000 6.6744
+43 frequency   0.3054 2.3920    0/6012      0.000 2.3920 0.0000 6.9433
+43 morph       0.3046 2.3678    0/5996      0.000 2.3678 0.0000 6.8955
+44 frequency   0.3020 2.2403    0/5910      0.000 2.2403 0.0000 6.5146
+44 morph       0.3021 2.2104    2/5911      0.001 2.2082 0.0021 6.4494
+45 frequency   0.3012 2.2553    0/5883      0.000 2.2553 0.0000 6.5903
+45 morph       0.3018 2.2317    0/5894      0.000 2.2317 0.0000 6.5313
+46 frequency   0.3029 2.3671    0/5878      0.000 2.3671 0.0000 6.8831
+46 morph       0.3029 2.3661    0/5878      0.000 2.3661 0.0000 6.8859
+47 frequency   0.3007 2.2729    0/5902      0.000 2.2729 0.0000 6.6683
+47 morph       0.3011 2.2481    0/5910      0.000 2.2481 0.0000 6.6246
+48 frequency   0.3034 2.2827    0/5969      0.000 2.2827 0.0000 6.6232
+48 morph       0.3028 2.2333    0/5957      0.000 2.2333 0.0000 6.5333
+49 frequency   0.3022 2.2413    0/5893      0.000 2.2413 0.0000 6.4950
+49 morph       0.3022 2.2068    0/5892      0.000 2.2068 0.0000 6.4253
+50 frequency   0.3038 2.2872    0/5912      0.000 2.2872 0.0000 6.6157
+50 morph       0.3036 2.2427    1/5909      0.000 2.2416 0.0011 6.5397
+51 frequency   0.3049 2.3107    0/5971      0.000 2.3107 0.0000 6.6552
+51 morph       0.3053 2.2902    0/5979      0.000 2.2902 0.0000 6.6134
+
+== word-bootstrap, official bpc, morph - frequency ==
+seed=42 point=-0.00545 fixedL CI95=[-0.00899,-0.00223] P(d>=0)=0.000 recompL CI95=[-0.00899,-0.00223]
+seed=43 point=-0.02414 fixedL CI95=[-0.03166,-0.01730] P(d>=0)=0.000 recompL CI95=[-0.03166,-0.01730]
+seed=44 point=-0.02989 fixedL CI95=[-0.03599,-0.02371] P(d>=0)=0.000 recompL CI95=[-0.03597,-0.02372]
+seed=45 point=-0.02368 fixedL CI95=[-0.02828,-0.01973] P(d>=0)=0.000 recompL CI95=[-0.02828,-0.01974]
+seed=46 point=-0.00100 fixedL CI95=[-0.00206,+0.00011] P(d>=0)=0.039 recompL CI95=[-0.00206,+0.00011]
+seed=47 point=-0.02481 fixedL CI95=[-0.02981,-0.02021] P(d>=0)=0.000 recompL CI95=[-0.02978,-0.02018]
+seed=48 point=-0.04944 fixedL CI95=[-0.05794,-0.04126] P(d>=0)=0.000 recompL CI95=[-0.05800,-0.04123]
+seed=49 point=-0.03447 fixedL CI95=[-0.04120,-0.02822] P(d>=0)=0.000 recompL CI95=[-0.04128,-0.02817]
+seed=50 point=-0.04448 fixedL CI95=[-0.05273,-0.03716] P(d>=0)=0.000 recompL CI95=[-0.05264,-0.03717]
+seed=51 point=-0.02053 fixedL CI95=[-0.02536,-0.01635] P(d>=0)=0.000 recompL CI95=[-0.02536,-0.01633]
+
+== cross-model bpc (stream x model), means over seeds ==
+stream=frequency model=frequency mean_bpc=2.30032
+stream=frequency model=morph     mean_bpc=2.30884
+stream=morph     model=frequency mean_bpc=2.28779
+stream=morph     model=morph     mean_bpc=2.27454
+
+== correlation of delta bpc with delta F1 / delta tpc ==
+mean d_bpc=-0.02579 mean d_F1=+0.00924 mean d_tpc=+0.00004 mean d_unseen=+0.30
+corr(d_bpc,d_F1)=-0.911 corr(d_bpc,d_tpc)=+0.487 corr(d_bpc,d_unseen)=-0.292
+OLS d_bpc = +0.00265 + -3.077*d_F1 ; R2=0.830
+residual mean=+0.00000 sd=0.00625
+
+== vocab-size accounting (why bpc is not comparable across vocab) ==
+mean n_train_tokens, used types, alpha*V, alpha*V/N for v512 run:
+flat        N= 208661.3 used_types= 433.9 alpha*V=  51.2 frac=2.45e-04
+frequency   N= 208661.3 used_types= 433.9 alpha*V=  51.2 frac=2.45e-04
+morph       N= 212358.3 used_types= 413.4 alpha*V=  51.2 frac=2.41e-04
+random_closed N= 219236.9 used_types= 423.4 alpha*V=  51.2 frac=2.34e-04
