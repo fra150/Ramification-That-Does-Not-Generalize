@@ -1,0 +1,256 @@
+seed=42 v=512 id        flat      F1=0.8665 bpc=2.3539 ties=115/490 rules=490 t=91.3s
+seed=45 v=512 id        flat      F1=0.8935 bpc=2.2553 ties=117/490 rules=490 t=92.9s
+seed=46 v=512 id        flat      F1=0.8029 bpc=2.3671 ties=108/490 rules=490 t=93.5s
+seed=43 v=512 id        flat      F1=0.8011 bpc=2.3920 ties=115/490 rules=490 t=95.1s
+seed=44 v=512 id        flat      F1=0.9142 bpc=2.2403 ties=118/490 rules=490 t=93.8s
+seed=42 v=512 id        frequency     F1=0.8665 bpc=2.3539 L1=294 L2=196
+seed=45 v=512 id        frequency     F1=0.8935 bpc=2.2553 L1=294 L2=196
+seed=46 v=512 id        frequency     F1=0.8029 bpc=2.3671 L1=294 L2=196
+seed=43 v=512 id        frequency     F1=0.8011 bpc=2.3920 L1=294 L2=196
+seed=44 v=512 id        frequency     F1=0.9142 bpc=2.2403 L1=294 L2=196
+seed=42 v=512 id        morph         F1=0.8706 bpc=2.3484 L1=294 L2=196
+seed=45 v=512 id        morph         F1=0.9035 bpc=2.2317 L1=294 L2=196
+seed=46 v=512 id        morph         F1=0.8030 bpc=2.3661 L1=294 L2=196
+seed=43 v=512 id        morph         F1=0.8108 bpc=2.3678 L1=294 L2=196
+seed=44 v=512 id        morph         F1=0.9238 bpc=2.2104 L1=294 L2=196
+seed=42 v=512 id        random_closed F1=0.8757 bpc=2.3496 L1=294 L2=196
+seed=45 v=512 id        random_closed F1=0.8916 bpc=2.2686 L1=294 L2=196
+seed=46 v=512 id        random_closed F1=0.7949 bpc=2.4293 L1=293 L2=197
+seed=43 v=512 id        random_closed F1=0.8017 bpc=2.3960 L1=294 L2=196
+seed=44 v=512 id        random_closed F1=0.8884 bpc=2.3265 L1=293 L2=197
+seed=42 v=512 rev_id    flat      F1=0.8661 bpc=2.3537 ties=114/490 rules=490 t=86.7s
+seed=45 v=512 rev_id    flat      F1=0.8937 bpc=2.2553 ties=117/490 rules=490 t=88.1s
+seed=46 v=512 rev_id    flat      F1=0.8026 bpc=2.3693 ties=109/490 rules=490 t=89.1s
+seed=43 v=512 rev_id    flat      F1=0.8013 bpc=2.3900 ties=115/490 rules=490 t=96.5s
+seed=44 v=512 rev_id    flat      F1=0.9150 bpc=2.2399 ties=118/490 rules=490 t=94.5s
+seed=42 v=512 rev_id    frequency     F1=0.8661 bpc=2.3537 L1=294 L2=196
+seed=45 v=512 rev_id    frequency     F1=0.8937 bpc=2.2553 L1=294 L2=196
+seed=46 v=512 rev_id    frequency     F1=0.8026 bpc=2.3693 L1=294 L2=196
+seed=43 v=512 rev_id    frequency     F1=0.8013 bpc=2.3900 L1=294 L2=196
+seed=44 v=512 rev_id    frequency     F1=0.9150 bpc=2.2399 L1=294 L2=196
+seed=42 v=512 rev_id    morph         F1=0.8707 bpc=2.3483 L1=294 L2=196
+seed=45 v=512 rev_id    morph         F1=0.9037 bpc=2.2316 L1=294 L2=196
+seed=46 v=512 rev_id    morph         F1=0.8027 bpc=2.3675 L1=294 L2=196
+seed=43 v=512 rev_id    morph         F1=0.8110 bpc=2.3659 L1=294 L2=196
+seed=44 v=512 rev_id    morph         F1=0.9246 bpc=2.2098 L1=294 L2=196
+seed=42 v=512 rev_id    random_closed F1=0.8478 bpc=2.4541 L1=294 L2=196
+seed=45 v=512 rev_id    random_closed F1=0.8786 bpc=2.3776 L1=294 L2=196
+seed=46 v=512 rev_id    random_closed F1=0.8022 bpc=2.3719 L1=293 L2=197
+seed=43 v=512 rev_id    random_closed F1=0.7896 bpc=2.5518 L1=294 L2=196
+seed=44 v=512 rev_id    random_closed F1=0.8982 bpc=2.3122 L1=293 L2=197
+seed=42 v=512 exp_short flat      F1=0.8665 bpc=2.3539 ties=115/490 rules=490 t=82.4s
+seed=45 v=512 exp_short flat      F1=0.8937 bpc=2.2553 ties=117/490 rules=490 t=87.4s
+seed=46 v=512 exp_short flat      F1=0.8029 bpc=2.3671 ties=108/490 rules=490 t=91.7s
+seed=43 v=512 exp_short flat      F1=0.8013 bpc=2.3900 ties=115/490 rules=490 t=105.5s
+seed=42 v=512 exp_short frequency     F1=0.8665 bpc=2.3539 L1=294 L2=196
+seed=45 v=512 exp_short frequency     F1=0.8937 bpc=2.2553 L1=294 L2=196
+seed=44 v=512 exp_short flat      F1=0.9142 bpc=2.2403 ties=118/490 rules=490 t=112.2s
+seed=46 v=512 exp_short frequency     F1=0.8029 bpc=2.3671 L1=294 L2=196
+seed=43 v=512 exp_short frequency     F1=0.8013 bpc=2.3900 L1=294 L2=196
+seed=42 v=512 exp_short morph         F1=0.8706 bpc=2.3484 L1=294 L2=196
+seed=45 v=512 exp_short morph         F1=0.9037 bpc=2.2316 L1=294 L2=196
+seed=44 v=512 exp_short frequency     F1=0.9142 bpc=2.2403 L1=294 L2=196
+seed=46 v=512 exp_short morph         F1=0.8030 bpc=2.3652 L1=294 L2=196
+seed=42 v=512 exp_short random_closed F1=0.8672 bpc=2.3570 L1=294 L2=196
+seed=43 v=512 exp_short morph         F1=0.8110 bpc=2.3659 L1=294 L2=196
+seed=45 v=512 exp_short random_closed F1=0.8832 bpc=2.3073 L1=293 L2=197
+seed=44 v=512 exp_short morph         F1=0.9238 bpc=2.2104 L1=294 L2=196
+seed=46 v=512 exp_short random_closed F1=0.7941 bpc=2.4231 L1=293 L2=197
+seed=43 v=512 exp_short random_closed F1=0.7995 bpc=2.4021 L1=294 L2=196
+seed=44 v=512 exp_short random_closed F1=0.8792 bpc=2.4156 L1=294 L2=196
+seed=42 v=512 exp_long  flat      F1=0.8661 bpc=2.3537 ties=114/490 rules=490 t=72.8s
+seed=45 v=512 exp_long  flat      F1=0.8935 bpc=2.2553 ties=117/490 rules=490 t=72.1s
+seed=46 v=512 exp_long  flat      F1=0.8026 bpc=2.3693 ties=108/490 rules=490 t=70.1s
+seed=42 v=512 exp_long  frequency     F1=0.8661 bpc=2.3537 L1=294 L2=196
+seed=43 v=512 exp_long  flat      F1=0.8005 bpc=2.3917 ties=116/490 rules=490 t=71.2s
+seed=45 v=512 exp_long  frequency     F1=0.8935 bpc=2.2553 L1=294 L2=196
+seed=46 v=512 exp_long  frequency     F1=0.8026 bpc=2.3693 L1=294 L2=196
+seed=44 v=512 exp_long  flat      F1=0.9150 bpc=2.2399 ties=118/490 rules=490 t=65.2s
+seed=42 v=512 exp_long  morph         F1=0.8707 bpc=2.3483 L1=294 L2=196
+seed=45 v=512 exp_long  morph         F1=0.9035 bpc=2.2317 L1=294 L2=196
+seed=43 v=512 exp_long  frequency     F1=0.8005 bpc=2.3917 L1=294 L2=196
+seed=46 v=512 exp_long  morph         F1=0.8027 bpc=2.3683 L1=294 L2=196
+seed=44 v=512 exp_long  frequency     F1=0.9150 bpc=2.2399 L1=294 L2=196
+seed=42 v=512 exp_long  random_closed F1=0.8624 bpc=2.3819 L1=294 L2=196
+seed=45 v=512 exp_long  random_closed F1=0.9001 bpc=2.2529 L1=294 L2=196
+seed=43 v=512 exp_long  morph         F1=0.8102 bpc=2.3676 L1=294 L2=196
+seed=46 v=512 exp_long  random_closed F1=0.7902 bpc=2.4157 L1=293 L2=197
+seed=44 v=512 exp_long  morph         F1=0.9246 bpc=2.2098 L1=294 L2=196
+seed=43 v=512 exp_long  random_closed F1=0.7957 bpc=2.3985 L1=294 L2=196
+seed=44 v=512 exp_long  random_closed F1=0.8886 bpc=2.3386 L1=292 L2=198
+seed=42 v=512 rand101   flat      F1=0.8667 bpc=2.3538 ties=114/490 rules=490 t=71.1s
+seed=45 v=512 rand101   flat      F1=0.8937 bpc=2.2553 ties=117/490 rules=490 t=72.8s
+seed=46 v=512 rand101   flat      F1=0.8024 bpc=2.3687 ties=108/490 rules=490 t=70.6s
+seed=42 v=512 rand101   frequency     F1=0.8667 bpc=2.3538 L1=294 L2=196
+seed=45 v=512 rand101   frequency     F1=0.8937 bpc=2.2553 L1=294 L2=196
+seed=43 v=512 rand101   flat      F1=0.8011 bpc=2.3920 ties=116/490 rules=490 t=69.8s
+seed=42 v=512 rand101   morph         F1=0.8708 bpc=2.3483 L1=294 L2=196
+seed=46 v=512 rand101   frequency     F1=0.8024 bpc=2.3687 L1=294 L2=196
+seed=44 v=512 rand101   flat      F1=0.9146 bpc=2.2400 ties=118/490 rules=490 t=63.5s
+seed=45 v=512 rand101   morph         F1=0.9037 bpc=2.2316 L1=294 L2=196
+seed=43 v=512 rand101   frequency     F1=0.8011 bpc=2.3920 L1=294 L2=196
+seed=42 v=512 rand101   random_closed F1=0.8528 bpc=2.3960 L1=294 L2=196
+seed=46 v=512 rand101   morph         F1=0.8025 bpc=2.3677 L1=294 L2=196
+seed=44 v=512 rand101   frequency     F1=0.9146 bpc=2.2400 L1=294 L2=196
+seed=45 v=512 rand101   random_closed F1=0.8898 bpc=2.2844 L1=294 L2=196
+seed=43 v=512 rand101   morph         F1=0.8108 bpc=2.3678 L1=294 L2=196
+seed=46 v=512 rand101   random_closed F1=0.7951 bpc=2.4135 L1=293 L2=197
+seed=44 v=512 rand101   morph         F1=0.9241 bpc=2.2099 L1=294 L2=196
+seed=43 v=512 rand101   random_closed F1=0.7785 bpc=2.4947 L1=294 L2=196
+seed=44 v=512 rand101   random_closed F1=0.8990 bpc=2.2760 L1=293 L2=197
+seed=42 v=512 rand202   flat      F1=0.8667 bpc=2.3538 ties=115/490 rules=490 t=61.3s
+seed=45 v=512 rand202   flat      F1=0.8937 bpc=2.2553 ties=117/490 rules=490 t=58.3s
+seed=42 v=512 rand202   frequency     F1=0.8667 bpc=2.3538 L1=294 L2=196
+seed=46 v=512 rand202   flat      F1=0.8031 bpc=2.3676 ties=109/490 rules=490 t=60.9s
+seed=45 v=512 rand202   frequency     F1=0.8937 bpc=2.2553 L1=294 L2=196
+seed=42 v=512 rand202   morph         F1=0.8708 bpc=2.3483 L1=294 L2=196
+seed=43 v=512 rand202   flat      F1=0.8011 bpc=2.3920 ties=116/490 rules=490 t=69.3s
+seed=46 v=512 rand202   frequency     F1=0.8031 bpc=2.3676 L1=294 L2=196
+seed=45 v=512 rand202   morph         F1=0.9037 bpc=2.2316 L1=294 L2=196
+seed=44 v=512 rand202   flat      F1=0.9145 bpc=2.2400 ties=118/490 rules=490 t=72.8s
+seed=42 v=512 rand202   random_closed F1=0.8653 bpc=2.3804 L1=294 L2=196
+seed=43 v=512 rand202   frequency     F1=0.8011 bpc=2.3920 L1=294 L2=196
+seed=46 v=512 rand202   morph         F1=0.8033 bpc=2.3657 L1=294 L2=196
+seed=45 v=512 rand202   random_closed F1=0.8930 bpc=2.2655 L1=293 L2=197
+seed=44 v=512 rand202   frequency     F1=0.9145 bpc=2.2400 L1=294 L2=196
+seed=43 v=512 rand202   morph         F1=0.8108 bpc=2.3678 L1=294 L2=196
+seed=46 v=512 rand202   random_closed F1=0.7954 bpc=2.3894 L1=293 L2=197
+seed=44 v=512 rand202   morph         F1=0.9241 bpc=2.2101 L1=294 L2=196
+seed=43 v=512 rand202   random_closed F1=0.7864 bpc=2.4686 L1=294 L2=196
+seed=44 v=512 rand202   random_closed F1=0.8818 bpc=2.3507 L1=291 L2=199
+seed=42 v=512 rand303   flat      F1=0.8667 bpc=2.3538 ties=114/490 rules=490 t=70.6s
+seed=45 v=512 rand303   flat      F1=0.8935 bpc=2.2553 ties=117/490 rules=490 t=70.8s
+seed=42 v=512 rand303   frequency     F1=0.8667 bpc=2.3538 L1=294 L2=196
+seed=46 v=512 rand303   flat      F1=0.8031 bpc=2.3676 ties=108/490 rules=490 t=71.4s
+seed=45 v=512 rand303   frequency     F1=0.8935 bpc=2.2553 L1=294 L2=196
+seed=42 v=512 rand303   morph         F1=0.8708 bpc=2.3483 L1=294 L2=196
+seed=46 v=512 rand303   frequency     F1=0.8031 bpc=2.3676 L1=294 L2=196
+seed=43 v=512 rand303   flat      F1=0.8011 bpc=2.3920 ties=115/490 rules=490 t=71.3s
+seed=45 v=512 rand303   morph         F1=0.9035 bpc=2.2317 L1=294 L2=196
+seed=42 v=512 rand303   random_closed F1=0.8567 bpc=2.3959 L1=294 L2=196
+seed=44 v=512 rand303   flat      F1=0.9150 bpc=2.2399 ties=118/490 rules=490 t=67.8s
+seed=46 v=512 rand303   morph         F1=0.8033 bpc=2.3666 L1=294 L2=196
+seed=43 v=512 rand303   frequency     F1=0.8011 bpc=2.3920 L1=294 L2=196
+seed=45 v=512 rand303   random_closed F1=0.8923 bpc=2.2889 L1=293 L2=197
+seed=46 v=512 rand303   random_closed F1=0.7757 bpc=2.4570 L1=293 L2=197
+seed=44 v=512 rand303   frequency     F1=0.9150 bpc=2.2399 L1=294 L2=196
+seed=43 v=512 rand303   morph         F1=0.8108 bpc=2.3678 L1=294 L2=196
+seed=44 v=512 rand303   morph         F1=0.9246 bpc=2.2098 L1=294 L2=196
+seed=43 v=512 rand303   random_closed F1=0.8075 bpc=2.4129 L1=294 L2=196
+seed=44 v=512 rand303   random_closed F1=0.8803 bpc=2.5101 L1=293 L2=197
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_08_runs_full.csv (140 rows)
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_08_pairwise_full.csv (105 rows)
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_08_summary_full.csv (42 rows)
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_08_ties_full.csv (35 rows)
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_08_rules_full.csv (35 rows)
+
+=== paired deltas by variant (5 seeds) ===
+
+id
+  boundary_f1    morph-frequency           mean=+0.00672 sd=0.00442 t=+3.40 CI=[+0.00123,+0.01221] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.01190 sd=0.01472 t=+1.81 CI=[-0.00637,+0.03017] W/L/T=4/1/0
+  boundary_f1    random_closed-frequency   mean=-0.00518 sd=0.01310 t=-0.88 CI=[-0.02144,+0.01108] W/L/T=2/3/0
+  bits_per_char  morph-frequency           mean=-0.01683 sd=0.01276 t=-2.95 CI=[-0.03267,-0.00099] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.04911 sd=0.04351 t=-2.52 CI=[-0.10312,+0.00491] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.03228 sd=0.03969 t=+1.82 CI=[-0.01699,+0.08155] W/L/T=4/1/0
+
+rev_id
+  boundary_f1    morph-frequency           mean=+0.00679 sd=0.00435 t=+3.49 CI=[+0.00140,+0.01219] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.01927 sd=0.01064 t=+4.05 CI=[+0.00606,+0.03248] W/L/T=5/0/0
+  boundary_f1    random_closed-frequency   mean=-0.01248 sd=0.00719 t=-3.88 CI=[-0.02140,-0.00355] W/L/T=0/5/0
+  bits_per_char  morph-frequency           mean=-0.01701 sd=0.01255 t=-3.03 CI=[-0.03259,-0.00143] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.10891 sd=0.06758 t=-3.60 CI=[-0.19280,-0.02502] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.09190 sd=0.05968 t=+3.44 CI=[+0.01781,+0.16599] W/L/T=5/0/0
+
+exp_short
+  boundary_f1    morph-frequency           mean=+0.00672 sd=0.00442 t=+3.40 CI=[+0.00123,+0.01221] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.01781 sd=0.01624 t=+2.45 CI=[-0.00236,+0.03798] W/L/T=5/0/0
+  boundary_f1    random_closed-frequency   mean=-0.01109 sd=0.01419 t=-1.75 CI=[-0.02870,+0.00652] W/L/T=1/4/0
+  bits_per_char  morph-frequency           mean=-0.01698 sd=0.01248 t=-3.04 CI=[-0.03248,-0.00149] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.07670 sd=0.07607 t=-2.25 CI=[-0.17114,+0.01774] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.05972 sd=0.06874 t=+1.94 CI=[-0.02562,+0.14505] W/L/T=5/0/0
+
+exp_long
+  boundary_f1    morph-frequency           mean=+0.00679 sd=0.00435 t=+3.49 CI=[+0.00140,+0.01219] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.01491 sd=0.01250 t=+2.67 CI=[-0.00060,+0.03043] W/L/T=5/0/0
+  boundary_f1    random_closed-frequency   mean=-0.00812 sd=0.01223 t=-1.48 CI=[-0.02331,+0.00707] W/L/T=1/4/0
+  bits_per_char  morph-frequency           mean=-0.01685 sd=0.01280 t=-2.94 CI=[-0.03275,-0.00096] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.05238 sd=0.04373 t=-2.68 CI=[-0.10667,+0.00190] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.03553 sd=0.04009 t=+1.98 CI=[-0.01424,+0.08531] W/L/T=4/1/0
+
+rand101
+  boundary_f1    morph-frequency           mean=+0.00671 sd=0.00441 t=+3.40 CI=[+0.00123,+0.01218] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.01935 sd=0.00966 t=+4.48 CI=[+0.00735,+0.03134] W/L/T=5/0/0
+  boundary_f1    random_closed-frequency   mean=-0.01264 sd=0.00729 t=-3.88 CI=[-0.02169,-0.00359] W/L/T=0/5/0
+  bits_per_char  morph-frequency           mean=-0.01686 sd=0.01280 t=-2.94 CI=[-0.03276,-0.00097] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.06784 sd=0.03397 t=-4.47 CI=[-0.11000,-0.02567] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.05098 sd=0.02959 t=+3.85 CI=[+0.01424,+0.08771] W/L/T=5/0/0
+
+rand202
+  boundary_f1    morph-frequency           mean=+0.00672 sd=0.00442 t=+3.40 CI=[+0.00123,+0.01221] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.01816 sd=0.01535 t=+2.64 CI=[-0.00090,+0.03722] W/L/T=5/0/0
+  boundary_f1    random_closed-frequency   mean=-0.01144 sd=0.01313 t=-1.95 CI=[-0.02774,+0.00486] W/L/T=0/5/0
+  bits_per_char  morph-frequency           mean=-0.01699 sd=0.01248 t=-3.04 CI=[-0.03247,-0.00150] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.06619 sd=0.05184 t=-2.86 CI=[-0.13055,-0.00183] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.04920 sd=0.04277 t=+2.57 CI=[-0.00390,+0.10231] W/L/T=5/0/0
+
+rand303
+  boundary_f1    morph-frequency           mean=+0.00671 sd=0.00441 t=+3.40 CI=[+0.00123,+0.01218] W/L/T=5/0/0
+  boundary_f1    morph-random_closed       mean=+0.02007 sd=0.01607 t=+2.79 CI=[+0.00012,+0.04003] W/L/T=5/0/0
+  boundary_f1    random_closed-frequency   mean=-0.01337 sd=0.01731 t=-1.73 CI=[-0.03486,+0.00813] W/L/T=1/4/0
+  bits_per_char  morph-frequency           mean=-0.01688 sd=0.01280 t=-2.95 CI=[-0.03276,-0.00099] W/L/T=0/5/0
+  bits_per_char  morph-random_closed       mean=-0.10813 sd=0.10895 t=-2.22 CI=[-0.24338,+0.02713] W/L/T=0/5/0
+  bits_per_char  random_closed-frequency   mean=+0.09125 sd=0.10334 t=+1.97 CI=[-0.03705,+0.21955] W/L/T=5/0/0
+
+=== tie steps in BPE training ===
+  seed=42 id        ties=115/490 (23.5%)
+  seed=42 rev_id    ties=114/490 (23.3%)
+  seed=42 exp_short ties=115/490 (23.5%)
+  seed=42 exp_long  ties=114/490 (23.3%)
+  seed=42 rand101   ties=114/490 (23.3%)
+  seed=42 rand202   ties=115/490 (23.5%)
+  seed=42 rand303   ties=114/490 (23.3%)
+  seed=43 id        ties=115/490 (23.5%)
+  seed=43 rev_id    ties=115/490 (23.5%)
+  seed=43 exp_short ties=115/490 (23.5%)
+  seed=43 exp_long  ties=116/490 (23.7%)
+  seed=43 rand101   ties=116/490 (23.7%)
+  seed=43 rand202   ties=116/490 (23.7%)
+  seed=43 rand303   ties=115/490 (23.5%)
+  seed=44 id        ties=118/490 (24.1%)
+  seed=44 rev_id    ties=118/490 (24.1%)
+  seed=44 exp_short ties=118/490 (24.1%)
+  seed=44 exp_long  ties=118/490 (24.1%)
+  seed=44 rand101   ties=118/490 (24.1%)
+  seed=44 rand202   ties=118/490 (24.1%)
+  seed=44 rand303   ties=118/490 (24.1%)
+  seed=45 id        ties=117/490 (23.9%)
+  seed=45 rev_id    ties=117/490 (23.9%)
+  seed=45 exp_short ties=117/490 (23.9%)
+  seed=45 exp_long  ties=117/490 (23.9%)
+  seed=45 rand101   ties=117/490 (23.9%)
+  seed=45 rand202   ties=117/490 (23.9%)
+  seed=45 rand303   ties=117/490 (23.9%)
+  seed=46 id        ties=108/490 (22.0%)
+  seed=46 rev_id    ties=109/490 (22.2%)
+  seed=46 exp_short ties=108/490 (22.0%)
+  seed=46 exp_long  ties=108/490 (22.0%)
+  seed=46 rand101   ties=108/490 (22.0%)
+  seed=46 rand202   ties=109/490 (22.2%)
+  seed=46 rand303   ties=108/490 (22.0%)
+
+=== tie-break noise (SD across variants) ===
+  boundary_f1    morph                  mean=+0.86245 sd_variant_means=0.00010 mean_within_seed_sd=0.00021
+  boundary_f1    frequency              mean=+0.85572 sd_variant_means=0.00011 mean_within_seed_sd=0.00025
+  boundary_f1    random_closed          mean=+0.84510 sd_variant_means=0.00286 mean_within_seed_sd=0.00856
+  boundary_f1    morph_minus_frequency  mean=+0.00674 sd_variant_means=0.00004 mean_within_seed_sd=0.00005
+  boundary_f1    morph_minus_random     mean=+0.01735 sd_variant_means=0.00293 mean_within_seed_sd=0.00860
+  boundary_f1    random_minus_frequency mean=-0.01062 sd_variant_means=0.00294 mean_within_seed_sd=0.00857
+  bits_per_char  morph                  mean=+2.30480 sd_variant_means=0.00028 mean_within_seed_sd=0.00047
+  bits_per_char  frequency              mean=+2.32171 sd_variant_means=0.00022 mean_within_seed_sd=0.00044
+  bits_per_char  random_closed          mean=+2.38041 sd_variant_means=0.02424 mean_within_seed_sd=0.04838
+  bits_per_char  morph_minus_frequency  mean=-0.01691 sd_variant_means=0.00008 mean_within_seed_sd=0.00013
+  bits_per_char  morph_minus_random     mean=-0.07561 sd_variant_means=0.02435 mean_within_seed_sd=0.04849
+  bits_per_char  random_minus_frequency mean=+0.05869 sd_variant_means=0.02432 mean_within_seed_sd=0.04856
+
+total wall time 2410.6s

@@ -1,0 +1,42 @@
+seed=42 v=512 flat      tok/ch=0.309 bpc=2.354 F1m=0.867 F1u=0.867 L1=490 t=24.4s
+seed=42 v=512 frequency tok/ch=0.309 bpc=2.354 F1m=0.867 F1u=0.867 L1=392 L2=98 t=0.0s
+seed=42 v=512 morph     tok/ch=0.309 bpc=2.354 F1m=0.867 F1u=0.867 L1=392 L2=98 t=0.0s
+seed=42 v=512 random_closed tok/ch=0.312 bpc=2.371 F1m=0.857 F1u=0.855 L1=392 L2=98 t=0.0s
+seed=43 v=512 flat      tok/ch=0.305 bpc=2.392 F1m=0.801 F1u=0.798 L1=490 t=33.0s
+seed=43 v=512 frequency tok/ch=0.305 bpc=2.392 F1m=0.801 F1u=0.798 L1=392 L2=98 t=0.0s
+seed=43 v=512 morph     tok/ch=0.305 bpc=2.392 F1m=0.801 F1u=0.798 L1=392 L2=98 t=0.0s
+seed=43 v=512 random_closed tok/ch=0.306 bpc=2.396 F1m=0.801 F1u=0.798 L1=392 L2=98 t=0.0s
+seed=44 v=512 flat      tok/ch=0.302 bpc=2.240 F1m=0.914 F1u=0.917 L1=490 t=41.1s
+seed=44 v=512 frequency tok/ch=0.302 bpc=2.240 F1m=0.914 F1u=0.917 L1=392 L2=98 t=0.0s
+seed=44 v=512 morph     tok/ch=0.302 bpc=2.240 F1m=0.914 F1u=0.917 L1=392 L2=98 t=0.0s
+seed=44 v=512 random_closed tok/ch=0.303 bpc=2.245 F1m=0.913 F1u=0.915 L1=391 L2=99 t=0.0s
+seed=45 v=512 flat      tok/ch=0.301 bpc=2.255 F1m=0.894 F1u=0.895 L1=490 t=42.8s
+seed=45 v=512 frequency tok/ch=0.301 bpc=2.255 F1m=0.894 F1u=0.895 L1=392 L2=98 t=0.0s
+seed=45 v=512 morph     tok/ch=0.301 bpc=2.255 F1m=0.894 F1u=0.895 L1=392 L2=98 t=0.0s
+seed=45 v=512 random_closed tok/ch=0.304 bpc=2.269 F1m=0.893 F1u=0.892 L1=391 L2=99 t=0.0s
+seed=46 v=512 flat      tok/ch=0.303 bpc=2.367 F1m=0.803 F1u=0.805 L1=490 t=47.8s
+seed=46 v=512 frequency tok/ch=0.303 bpc=2.367 F1m=0.803 F1u=0.805 L1=392 L2=98 t=0.4s
+seed=46 v=512 morph     tok/ch=0.303 bpc=2.367 F1m=0.803 F1u=0.805 L1=392 L2=98 t=0.1s
+seed=46 v=512 random_closed tok/ch=0.303 bpc=2.359 F1m=0.806 F1u=0.808 L1=391 L2=99 t=0.1s
+seed=47 v=512 flat      tok/ch=0.301 bpc=2.273 F1m=0.869 F1u=0.871 L1=490 t=56.0s
+seed=47 v=512 frequency tok/ch=0.301 bpc=2.273 F1m=0.869 F1u=0.871 L1=392 L2=98 t=0.0s
+seed=47 v=512 morph     tok/ch=0.301 bpc=2.273 F1m=0.869 F1u=0.871 L1=392 L2=98 t=0.0s
+seed=47 v=512 random_closed tok/ch=0.301 bpc=2.272 F1m=0.869 F1u=0.871 L1=392 L2=98 t=0.0s
+seed=48 v=512 flat      tok/ch=0.303 bpc=2.283 F1m=0.894 F1u=0.893 L1=490 t=68.1s
+seed=48 v=512 frequency tok/ch=0.303 bpc=2.283 F1m=0.894 F1u=0.893 L1=392 L2=98 t=0.0s
+seed=48 v=512 morph     tok/ch=0.303 bpc=2.283 F1m=0.894 F1u=0.893 L1=392 L2=98 t=0.0s
+seed=48 v=512 random_closed tok/ch=0.304 bpc=2.274 F1m=0.898 F1u=0.897 L1=392 L2=98 t=0.0s
+seed=49 v=512 flat      tok/ch=0.302 bpc=2.241 F1m=0.926 F1u=0.927 L1=490 t=49.6s
+seed=49 v=512 frequency tok/ch=0.302 bpc=2.241 F1m=0.926 F1u=0.927 L1=392 L2=98 t=0.0s
+seed=49 v=512 morph     tok/ch=0.302 bpc=2.241 F1m=0.926 F1u=0.927 L1=392 L2=98 t=0.0s
+seed=49 v=512 random_closed tok/ch=0.303 bpc=2.241 F1m=0.926 F1u=0.927 L1=392 L2=98 t=0.0s
+seed=50 v=512 flat      tok/ch=0.304 bpc=2.287 F1m=0.890 F1u=0.892 L1=490 t=74.4s
+seed=50 v=512 frequency tok/ch=0.304 bpc=2.287 F1m=0.890 F1u=0.892 L1=392 L2=98 t=0.0s
+seed=50 v=512 morph     tok/ch=0.304 bpc=2.287 F1m=0.890 F1u=0.892 L1=392 L2=98 t=0.0s
+seed=50 v=512 random_closed tok/ch=0.304 bpc=2.293 F1m=0.889 F1u=0.891 L1=390 L2=100 t=0.0s
+seed=51 v=512 flat      tok/ch=0.305 bpc=2.311 F1m=0.885 F1u=0.882 L1=490 t=36.4s
+seed=51 v=512 frequency tok/ch=0.305 bpc=2.311 F1m=0.885 F1u=0.882 L1=392 L2=98 t=0.0s
+seed=51 v=512 morph     tok/ch=0.305 bpc=2.311 F1m=0.885 F1u=0.882 L1=392 L2=98 t=0.0s
+seed=51 v=512 random_closed tok/ch=0.305 bpc=2.309 F1m=0.886 F1u=0.883 L1=392 L2=98 t=0.0s
+
+wrote results/redteam/level_frac_080_seeds42-51.csv (40 runs)

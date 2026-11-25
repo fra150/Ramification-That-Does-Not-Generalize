@@ -1,0 +1,35 @@
+kind,condition,metric,mode_a,mode_b,n,mean,std,se,t,p,ci_low,ci_high,wins,losses,ties
+paired_mode,baseline,boundary_f1,morph,frequency,1,0.004123263888888951,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,baseline,boundary_f1,morph,random_closed,1,-0.0050925925925925375,0.0,0.0,nan,nan,nan,nan,0,1,0
+paired_mode,baseline,boundary_f1,random_closed,frequency,1,0.009215856481481488,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,baseline,bits_per_char,morph,frequency,1,-0.005448820635644225,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,baseline,bits_per_char,morph,random_closed,1,-0.00113743794202259,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,baseline,bits_per_char,random_closed,frequency,1,-0.004311382693621635,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,uniform,boundary_f1,morph,frequency,1,0.0,0.0,0.0,nan,nan,nan,nan,0,0,1
+paired_mode,uniform,boundary_f1,morph,random_closed,1,0.03029307208994725,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,uniform,boundary_f1,random_closed,frequency,1,-0.03029307208994725,0.0,0.0,nan,nan,nan,nan,0,1,0
+paired_mode,uniform,bits_per_char,morph,frequency,1,0.0,0.0,0.0,nan,nan,nan,nan,0,0,1
+paired_mode,uniform,bits_per_char,morph,random_closed,1,-0.1759500296909744,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,uniform,bits_per_char,random_closed,frequency,1,0.1759500296909744,0.0,0.0,nan,nan,nan,nan,0,1,0
+paired_mode,noperiod,boundary_f1,morph,frequency,1,0.00434027777777779,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,noperiod,boundary_f1,morph,random_closed,1,0.011441798941798975,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,noperiod,boundary_f1,random_closed,frequency,1,-0.007101521164021185,0.0,0.0,nan,nan,nan,nan,0,1,0
+paired_mode,noperiod,bits_per_char,morph,frequency,1,-0.0056393313803031475,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,noperiod,bits_per_char,morph,random_closed,1,-0.02493131585528774,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,noperiod,bits_per_char,random_closed,frequency,1,0.01929198447498459,0.0,0.0,nan,nan,nan,nan,0,1,0
+paired_mode,uniform_noperiod,boundary_f1,morph,frequency,1,0.0,0.0,0.0,nan,nan,nan,nan,0,0,1
+paired_mode,uniform_noperiod,boundary_f1,morph,random_closed,1,0.03354414682539697,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,uniform_noperiod,boundary_f1,random_closed,frequency,1,-0.03354414682539697,0.0,0.0,nan,nan,nan,nan,0,1,0
+paired_mode,uniform_noperiod,bits_per_char,morph,frequency,1,0.0,0.0,0.0,nan,nan,nan,nan,0,0,1
+paired_mode,uniform_noperiod,bits_per_char,morph,random_closed,1,-0.1353132040270062,0.0,0.0,nan,nan,nan,nan,1,0,0
+paired_mode,uniform_noperiod,bits_per_char,random_closed,frequency,1,0.1353132040270062,0.0,0.0,nan,nan,nan,nan,0,1,0
+effect_shift,baseline - uniform,boundary_f1,morph-frequency,,1,0.004123263888888951,0.0,0.0,nan,nan,nan,nan,1,0,0
+effect_shift,baseline - noperiod,boundary_f1,morph-frequency,,1,-0.00021701388888883955,0.0,0.0,nan,nan,nan,nan,0,1,0
+effect_shift,baseline - uniform_noperiod,boundary_f1,morph-frequency,,1,0.004123263888888951,0.0,0.0,nan,nan,nan,nan,1,0,0
+effect_shift,uniform - uniform_noperiod,boundary_f1,morph-frequency,,1,0.0,0.0,0.0,nan,nan,nan,nan,0,0,1
+effect_shift,noperiod - uniform_noperiod,boundary_f1,morph-frequency,,1,0.00434027777777779,0.0,0.0,nan,nan,nan,nan,1,0,0
+effect_shift,baseline - uniform,bits_per_char,morph-frequency,,1,-0.005448820635644225,0.0,0.0,nan,nan,nan,nan,0,1,0
+effect_shift,baseline - noperiod,bits_per_char,morph-frequency,,1,0.0001905107446589227,0.0,0.0,nan,nan,nan,nan,1,0,0
+effect_shift,baseline - uniform_noperiod,bits_per_char,morph-frequency,,1,-0.005448820635644225,0.0,0.0,nan,nan,nan,nan,0,1,0
+effect_shift,uniform - uniform_noperiod,bits_per_char,morph-frequency,,1,0.0,0.0,0.0,nan,nan,nan,nan,0,0,1
+effect_shift,noperiod - uniform_noperiod,bits_per_char,morph-frequency,,1,-0.0056393313803031475,0.0,0.0,nan,nan,nan,nan,0,1,0

@@ -1,0 +1,5 @@
+seed,condition,l1_frequency,l1_morph,l1_intersection,l1_union,l1_jaccard,l1_only_frequency,l1_only_morph,l2_intra_frequency,l2_cross_frequency,l2_intra_morph,l2_cross_morph
+42,baseline,294,294,241,347,0.6945244956772334,53,53,53,143,0,196
+42,uniform,294,294,294,294,1.0,0,0,0,196,0,196
+42,noperiod,294,294,241,347,0.6945244956772334,53,53,53,144,0,197
+42,uniform_noperiod,294,294,294,294,1.0,0,0,0,197,0,197

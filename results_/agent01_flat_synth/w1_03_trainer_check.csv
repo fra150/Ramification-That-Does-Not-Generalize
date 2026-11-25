@@ -1,0 +1,6 @@
+seed,condition,vocab,n_rules_src,n_rules_fast,same_rules,same_expansions,same_test_encoding
+42,baseline,512,490,490,True,True,True
+42,baseline,256,234,234,True,True,True
+42,uniform,256,234,234,True,True,True
+42,noperiod,512,491,491,True,True,True
+42,uniform_noperiod,256,235,235,True,True,True

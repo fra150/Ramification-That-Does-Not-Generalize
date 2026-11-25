@@ -1,0 +1,52 @@
+seed=42 draw=00 F1=0.853733 bpc=2.389866 L1=294
+seed=42 draw=01 F1=0.847514 bpc=2.422049 L1=294
+seed=42 draw=02 F1=0.850430 bpc=2.444573 L1=294
+seed=42 draw=03 F1=0.853185 bpc=2.429436 L1=294
+seed=42 draw=04 F1=0.857523 bpc=2.423427 L1=294
+seed=42 draw=05 F1=0.857314 bpc=2.418400 L1=294
+seed=42 draw=06 F1=0.867535 bpc=2.365542 L1=294
+seed=42 draw=07 F1=0.866421 bpc=2.362547 L1=294
+seed=42 draw=08 F1=0.843353 bpc=2.462789 L1=294
+seed=42 draw=09 F1=0.860679 bpc=2.378084 L1=294
+seed=42 draw=10 F1=0.820786 bpc=2.562560 L1=294
+seed=42 draw=11 F1=0.865309 bpc=2.365680 L1=294
+seed=42 draw=12 F1=0.845641 bpc=2.416384 L1=294
+seed=42 draw=13 F1=0.812452 bpc=2.531801 L1=294
+seed=42 draw=14 F1=0.863035 bpc=2.385301 L1=294
+seed=42 draw=15 F1=0.856715 bpc=2.391931 L1=294
+seed=42 draw=16 F1=0.859507 bpc=2.403550 L1=294
+seed=42 draw=17 F1=0.866291 bpc=2.355889 L1=294
+seed=42 draw=18 F1=0.847152 bpc=2.436690 L1=294
+seed=42 draw=19 F1=0.861915 bpc=2.366960 L1=294
+
+seed=42: flat F1=0.866508, morph F1=0.870631
+  random_closed F1: mean=0.852824 sd=0.014426 range=0.055082
+  random_closed bpc: mean=2.415673 sd=0.054459 range=0.206671
+  morph - random F1: mean=+0.017806 sd=0.014426 wins=20/20
+  morph - random bpc: mean=-0.067252 sd=0.054459 wins=20/20
+seed=43 draw=00 F1=0.787645 bpc=2.473504 L1=294
+seed=43 draw=01 F1=0.782226 bpc=2.465297 L1=294
+seed=43 draw=02 F1=0.789296 bpc=2.432325 L1=294
+seed=43 draw=03 F1=0.793475 bpc=2.429707 L1=294
+seed=43 draw=04 F1=0.800781 bpc=2.394449 L1=294
+seed=43 draw=05 F1=0.795480 bpc=2.451000 L1=294
+seed=43 draw=06 F1=0.794279 bpc=2.473720 L1=294
+seed=43 draw=07 F1=0.780903 bpc=2.535708 L1=294
+seed=43 draw=08 F1=0.792719 bpc=2.451924 L1=294
+seed=43 draw=09 F1=0.786157 bpc=2.510567 L1=294
+seed=43 draw=10 F1=0.796902 bpc=2.508642 L1=294
+seed=43 draw=11 F1=0.791408 bpc=2.482085 L1=294
+seed=43 draw=12 F1=0.791815 bpc=2.446157 L1=294
+seed=43 draw=13 F1=0.805917 bpc=2.402543 L1=294
+seed=43 draw=14 F1=0.784764 bpc=2.500166 L1=294
+seed=43 draw=15 F1=0.793035 bpc=2.456039 L1=294
+seed=43 draw=16 F1=0.800841 bpc=2.405870 L1=294
+seed=43 draw=17 F1=0.783666 bpc=2.525204 L1=294
+seed=43 draw=18 F1=0.772410 bpc=2.527333 L1=294
+seed=43 draw=19 F1=0.791348 bpc=2.449852 L1=294
+
+seed=43: flat F1=0.801085, morph F1=0.810807
+  random_closed F1: mean=0.790753 sd=0.007775 range=0.033507
+  random_closed bpc: mean=2.466105 sd=0.042217 range=0.141259
+  morph - random F1: mean=+0.020054 sd=0.007775 wins=20/20
+  morph - random bpc: mean=-0.098274 sd=0.042217 wins=20/20

@@ -1,0 +1,144 @@
+seed=42 flat tok/ch=0.3088 bpc=2.3539 F1=0.8665 | morph bpc=2.3484 F1=0.8706 | train=36.4s flat_eval=6.1s morph_eval=6.1s
+  canonical nL1=294 bpc=2.3496 F1=0.8757
+  draw=00 nL1=294 J(morph)=0.624 bpc=2.4206 F1=0.8523 t=6.1s
+  draw=01 nL1=294 J(morph)=0.607 bpc=2.3649 F1=0.8694 t=5.8s
+  draw=02 nL1=294 J(morph)=0.638 bpc=2.4914 F1=0.8329 t=5.7s
+  draw=03 nL1=294 J(morph)=0.593 bpc=2.3719 F1=0.8676 t=6.0s
+  draw=04 nL1=294 J(morph)=0.598 bpc=2.3946 F1=0.8572 t=5.6s
+  draw=05 nL1=294 J(morph)=0.585 bpc=2.3767 F1=0.8564 t=5.8s
+  draw=06 nL1=294 J(morph)=0.624 bpc=2.3689 F1=0.8627 t=5.6s
+  draw=07 nL1=294 J(morph)=0.598 bpc=2.3521 F1=0.8665 t=4.7s
+  draw=08 nL1=294 J(morph)=0.633 bpc=2.4189 F1=0.8470 t=5.7s
+  draw=09 nL1=294 J(morph)=0.633 bpc=2.3592 F1=0.8713 t=6.6s
+seed=42 done in 165.1s
+seed=43 flat tok/ch=0.3054 bpc=2.3920 F1=0.8011 | morph bpc=2.3678 F1=0.8108 | train=42.6s flat_eval=7.2s morph_eval=7.6s
+  canonical nL1=294 bpc=2.3960 F1=0.8017
+  draw=00 nL1=294 J(morph)=0.611 bpc=2.4371 F1=0.8005 t=5.7s
+  draw=01 nL1=294 J(morph)=0.642 bpc=2.5745 F1=0.7634 t=6.9s
+  draw=02 nL1=294 J(morph)=0.581 bpc=2.5186 F1=0.7795 t=7.3s
+  draw=03 nL1=294 J(morph)=0.602 bpc=2.4801 F1=0.7854 t=6.8s
+  draw=04 nL1=294 J(morph)=0.629 bpc=2.5171 F1=0.7791 t=7.7s
+  draw=05 nL1=294 J(morph)=0.568 bpc=2.4359 F1=0.7983 t=6.9s
+  draw=06 nL1=294 J(morph)=0.633 bpc=2.4812 F1=0.7816 t=7.3s
+  draw=07 nL1=294 J(morph)=0.607 bpc=2.4259 F1=0.8020 t=7.7s
+  draw=08 nL1=294 J(morph)=0.666 bpc=2.5088 F1=0.7804 t=8.4s
+  draw=09 nL1=294 J(morph)=0.572 bpc=2.5465 F1=0.7820 t=7.7s
+seed=43 done in 208.8s
+seed=44 flat tok/ch=0.3020 bpc=2.2403 F1=0.9142 | morph bpc=2.2104 F1=0.9238 | train=45.4s flat_eval=7.8s morph_eval=8.3s
+  canonical nL1=293 bpc=2.3265 F1=0.8884
+  draw=00 nL1=293 J(morph)=0.595 bpc=2.4053 F1=0.8860 t=7.5s
+  draw=01 nL1=293 J(morph)=0.644 bpc=2.3607 F1=0.9074 t=7.5s
+  draw=02 nL1=293 J(morph)=0.644 bpc=2.2478 F1=0.9100 t=7.9s
+  draw=03 nL1=293 J(morph)=0.640 bpc=2.3778 F1=0.8829 t=8.7s
+  draw=04 nL1=293 J(morph)=0.654 bpc=2.4057 F1=0.8567 t=9.6s
+  draw=05 nL1=293 J(morph)=0.640 bpc=2.4277 F1=0.8577 t=9.6s
+  draw=06 nL1=293 J(morph)=0.640 bpc=2.3150 F1=0.9094 t=8.7s
+  draw=07 nL1=293 J(morph)=0.701 bpc=2.2413 F1=0.9114 t=8.2s
+  draw=08 nL1=293 J(morph)=0.595 bpc=2.3710 F1=0.8813 t=9.2s
+  draw=09 nL1=293 J(morph)=0.654 bpc=2.3150 F1=0.8833 t=9.7s
+seed=44 done in 237.9s
+seed=45 flat tok/ch=0.3012 bpc=2.2553 F1=0.8935 | morph bpc=2.2317 F1=0.9035 | train=50.6s flat_eval=9.9s morph_eval=9.9s
+  canonical nL1=294 bpc=2.2686 F1=0.8916
+  draw=00 nL1=292 J(morph)=0.637 bpc=2.3108 F1=0.8872 t=10.7s
+  draw=01 nL1=293 J(morph)=0.654 bpc=2.3457 F1=0.8713 t=9.8s
+  draw=02 nL1=292 J(morph)=0.575 bpc=2.3602 F1=0.8843 t=8.9s
+  draw=03 nL1=293 J(morph)=0.677 bpc=2.2987 F1=0.8826 t=8.6s
+  draw=04 nL1=293 J(morph)=0.613 bpc=2.3240 F1=0.8733 t=8.2s
+  draw=05 nL1=293 J(morph)=0.663 bpc=2.2467 F1=0.8985 t=8.3s
+  draw=06 nL1=293 J(morph)=0.604 bpc=2.2611 F1=0.9108 t=8.4s
+  draw=07 nL1=293 J(morph)=0.582 bpc=2.2872 F1=0.8830 t=8.6s
+  draw=08 nL1=293 J(morph)=0.626 bpc=2.3273 F1=0.8772 t=8.5s
+  draw=09 nL1=293 J(morph)=0.626 bpc=2.2762 F1=0.8946 t=7.8s
+seed=45 done in 257.0s
+seed=46 flat tok/ch=0.3029 bpc=2.3671 F1=0.8029 | morph bpc=2.3661 F1=0.8030 | train=53.6s flat_eval=8.1s morph_eval=9.3s
+  canonical nL1=293 bpc=2.4293 F1=0.7949
+  draw=00 nL1=293 J(morph)=0.578 bpc=2.4636 F1=0.7903 t=9.9s
+  draw=01 nL1=293 J(morph)=0.613 bpc=2.3687 F1=0.8060 t=9.8s
+  draw=02 nL1=293 J(morph)=0.574 bpc=2.3964 F1=0.8066 t=10.4s
+  draw=03 nL1=294 J(morph)=0.598 bpc=2.3756 F1=0.8005 t=8.8s
+  draw=04 nL1=293 J(morph)=0.557 bpc=2.4046 F1=0.7912 t=9.3s
+  draw=05 nL1=293 J(morph)=0.599 bpc=2.4146 F1=0.7862 t=10.4s
+  draw=06 nL1=294 J(morph)=0.598 bpc=2.3479 F1=0.8041 t=10.6s
+  draw=07 nL1=293 J(morph)=0.595 bpc=2.3586 F1=0.8037 t=9.5s
+  draw=08 nL1=294 J(morph)=0.585 bpc=2.4186 F1=0.7911 t=9.4s
+  draw=09 nL1=293 J(morph)=0.557 bpc=2.6181 F1=0.7766 t=9.1s
+seed=46 done in 264.7s
+seed=47 flat tok/ch=0.3007 bpc=2.2729 F1=0.8691 | morph bpc=2.2481 F1=0.8782 | train=60.3s flat_eval=11.6s morph_eval=9.9s
+  canonical nL1=294 bpc=2.3664 F1=0.8421
+  draw=00 nL1=294 J(morph)=0.624 bpc=2.3184 F1=0.8602 t=9.3s
+  draw=01 nL1=294 J(morph)=0.602 bpc=2.3431 F1=0.8612 t=8.5s
+  draw=02 nL1=294 J(morph)=0.611 bpc=2.3883 F1=0.8499 t=9.1s
+  draw=03 nL1=294 J(morph)=0.611 bpc=2.3003 F1=0.8607 t=9.6s
+  draw=04 nL1=294 J(morph)=0.585 bpc=2.3693 F1=0.8467 t=11.5s
+  draw=05 nL1=294 J(morph)=0.642 bpc=2.4833 F1=0.8127 t=10.7s
+  draw=06 nL1=294 J(morph)=0.666 bpc=2.4079 F1=0.8266 t=9.4s
+  draw=07 nL1=294 J(morph)=0.598 bpc=2.3147 F1=0.8628 t=11.2s
+  draw=08 nL1=294 J(morph)=0.607 bpc=2.4240 F1=0.8248 t=9.3s
+  draw=09 nL1=294 J(morph)=0.652 bpc=2.3885 F1=0.8384 t=8.8s
+seed=47 done in 298.6s
+seed=48 flat tok/ch=0.3034 bpc=2.2827 F1=0.8943 | morph bpc=2.2333 F1=0.9099 | train=48.2s flat_eval=8.6s morph_eval=8.5s
+  canonical nL1=294 bpc=2.3150 F1=0.8854
+  draw=00 nL1=294 J(morph)=0.647 bpc=2.3041 F1=0.8901 t=8.7s
+  draw=01 nL1=294 J(morph)=0.629 bpc=2.3136 F1=0.8813 t=7.9s
+  draw=02 nL1=294 J(morph)=0.642 bpc=2.4075 F1=0.8716 t=8.2s
+  draw=03 nL1=294 J(morph)=0.620 bpc=2.3593 F1=0.8802 t=8.2s
+  draw=04 nL1=294 J(morph)=0.615 bpc=2.3855 F1=0.8543 t=8.2s
+  draw=05 nL1=294 J(morph)=0.620 bpc=2.3198 F1=0.8810 t=8.5s
+  draw=06 nL1=294 J(morph)=0.602 bpc=2.3904 F1=0.8682 t=7.7s
+  draw=07 nL1=294 J(morph)=0.652 bpc=2.3392 F1=0.8737 t=7.6s
+  draw=08 nL1=294 J(morph)=0.611 bpc=2.3741 F1=0.8771 t=7.5s
+  draw=09 nL1=294 J(morph)=0.661 bpc=2.3259 F1=0.8835 t=7.9s
+seed=48 done in 243.8s
+seed=49 flat tok/ch=0.3022 bpc=2.2413 F1=0.9255 | morph bpc=2.2068 F1=0.9401 | train=46.7s flat_eval=7.8s morph_eval=7.9s
+  canonical nL1=294 bpc=2.3075 F1=0.9234
+  draw=00 nL1=294 J(morph)=0.642 bpc=2.2846 F1=0.9198 t=8.1s
+  draw=01 nL1=294 J(morph)=0.607 bpc=2.2377 F1=0.9289 t=8.2s
+  draw=02 nL1=294 J(morph)=0.593 bpc=2.2886 F1=0.9146 t=8.5s
+  draw=03 nL1=294 J(morph)=0.624 bpc=2.3248 F1=0.9141 t=8.2s
+  draw=04 nL1=294 J(morph)=0.656 bpc=2.2884 F1=0.9163 t=8.1s
+  draw=05 nL1=294 J(morph)=0.656 bpc=2.3475 F1=0.9045 t=10.5s
+  draw=06 nL1=294 J(morph)=0.638 bpc=2.3067 F1=0.9100 t=11.0s
+  draw=07 nL1=294 J(morph)=0.572 bpc=2.2835 F1=0.9145 t=12.2s
+  draw=08 nL1=294 J(morph)=0.647 bpc=2.2571 F1=0.9234 t=13.3s
+  draw=09 nL1=294 J(morph)=0.620 bpc=2.2752 F1=0.9156 t=13.0s
+seed=49 done in 248.4s
+seed=50 flat tok/ch=0.3038 bpc=2.2872 F1=0.8902 | morph bpc=2.2427 F1=0.9010 | train=73.6s flat_eval=10.8s morph_eval=10.7s
+  canonical nL1=292 bpc=2.2980 F1=0.8892
+  draw=00 nL1=293 J(morph)=0.631 bpc=2.3031 F1=0.8929 t=9.9s
+  draw=01 nL1=293 J(morph)=0.649 bpc=2.2621 F1=0.8963 t=9.7s
+  draw=02 nL1=290 J(morph)=0.587 bpc=2.2706 F1=0.8965 t=9.9s
+  draw=03 nL1=292 J(morph)=0.646 bpc=2.3147 F1=0.8799 t=10.7s
+  draw=04 nL1=293 J(morph)=0.617 bpc=2.3412 F1=0.8657 t=10.1s
+  draw=05 nL1=292 J(morph)=0.628 bpc=2.2770 F1=0.8894 t=9.0s
+  draw=06 nL1=292 J(morph)=0.614 bpc=2.3300 F1=0.8837 t=9.9s
+  draw=07 nL1=291 J(morph)=0.594 bpc=2.3760 F1=0.8619 t=7.2s
+  draw=08 nL1=293 J(morph)=0.658 bpc=2.2674 F1=0.8949 t=6.5s
+  draw=09 nL1=291 J(morph)=0.643 bpc=2.3015 F1=0.8809 t=6.5s
+seed=50 done in 311.6s
+seed=51 flat tok/ch=0.3049 bpc=2.3107 F1=0.8848 | morph bpc=2.2902 F1=0.8935 | train=43.6s flat_eval=5.7s morph_eval=6.7s
+  canonical nL1=294 bpc=2.3079 F1=0.8859
+  draw=00 nL1=294 J(morph)=0.652 bpc=2.3577 F1=0.8783 t=5.9s
+  draw=01 nL1=294 J(morph)=0.642 bpc=2.3598 F1=0.8739 t=5.7s
+  draw=02 nL1=294 J(morph)=0.647 bpc=2.3084 F1=0.8876 t=6.2s
+  draw=03 nL1=294 J(morph)=0.620 bpc=2.3629 F1=0.8713 t=7.5s
+  draw=04 nL1=294 J(morph)=0.611 bpc=2.3214 F1=0.8885 t=8.1s
+  draw=05 nL1=294 J(morph)=0.680 bpc=2.3251 F1=0.8896 t=8.1s
+  draw=06 nL1=294 J(morph)=0.647 bpc=2.3685 F1=0.8802 t=7.3s
+  draw=07 nL1=294 J(morph)=0.638 bpc=2.3760 F1=0.8722 t=5.7s
+  draw=08 nL1=294 J(morph)=0.638 bpc=2.4115 F1=0.8572 t=6.2s
+  draw=09 nL1=294 J(morph)=0.642 bpc=2.4181 F1=0.8696 t=6.5s
+seed=51 done in 193.7s
+
+wrote results/redteam/w1_14_random_closed_draws.csv (130 runs)
+
+within-seed random_closed spread
+seed=42 F1 mean=0.8583 sd=0.0119 range=[0.8329,0.8713] | bpc mean=2.3919 sd=0.0422 range=[2.3521,2.4914]
+seed=43 F1 mean=0.7852 sd=0.0119 range=[0.7634,0.8020] | bpc mean=2.4926 sd=0.0496 range=[2.4259,2.5745]
+seed=44 F1 mean=0.8886 sd=0.0207 range=[0.8567,0.9114] | bpc mean=2.3467 sd=0.0651 range=[2.2413,2.4277]
+seed=45 F1 mean=0.8863 sd=0.0121 range=[0.8713,0.9108] | bpc mean=2.3038 sd=0.0367 range=[2.2467,2.3602]
+seed=46 F1 mean=0.7956 sd=0.0100 range=[0.7766,0.8066] | bpc mean=2.4167 sd=0.0785 range=[2.3479,2.6181]
+seed=47 F1 mean=0.8444 sd=0.0180 range=[0.8127,0.8628] | bpc mean=2.3738 sd=0.0568 range=[2.3003,2.4833]
+seed=48 F1 mean=0.8761 sd=0.0099 range=[0.8543,0.8901] | bpc mean=2.3519 sd=0.0363 range=[2.3041,2.4075]
+seed=49 F1 mean=0.9162 sd=0.0068 range=[0.9045,0.9289] | bpc mean=2.2894 sd=0.0315 range=[2.2377,2.3475]
+seed=50 F1 mean=0.8842 sd=0.0124 range=[0.8619,0.8965] | bpc mean=2.3044 sd=0.0370 range=[2.2621,2.3760]
+seed=51 F1 mean=0.8768 sd=0.0101 range=[0.8572,0.8896] | bpc mean=2.3609 sd=0.0361 range=[2.3084,2.4181]

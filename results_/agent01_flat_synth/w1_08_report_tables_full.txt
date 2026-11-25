@@ -1,0 +1,111 @@
+=== validation: id vs published level_assignment_v512_10seeds.csv ===
+  max |dF1| = 0.000e+00, max |dbpc| = 0.000e+00
+
+=== sanity checks ===
+  max |flat - frequency| over F1/bpc: 0.000e+00 (expected 0)
+  runs with decode_word or decode_doc != 1: 0
+  level sizes observed: n_l1=[291, 292, 293, 294, 490], n_l2=[0, 196, 197, 198, 199]
+
+=== morph minus frequency on boundary_f1 ===
+variant           mean        sd        t                      CI95    W/L/T
+id           +0.006722  0.004420    +3.40     [+0.001235,+0.012209] 5/0/       0
+rev_id       +0.006794  0.004348    +3.49     [+0.001396,+0.012192] 5/0/       0
+exp_short    +0.006722  0.004420    +3.40     [+0.001235,+0.012209] 5/0/       0
+exp_long     +0.006794  0.004348    +3.49     [+0.001396,+0.012192] 5/0/       0
+rand101      +0.006707  0.004408    +3.40     [+0.001235,+0.012179] 5/0/       0
+rand202      +0.006722  0.004420    +3.40     [+0.001235,+0.012209] 5/0/       0
+rand303      +0.006707  0.004408    +3.40     [+0.001235,+0.012179] 5/0/       0
+ALL          +0.006738  0.004395    +3.43     [+0.001282,+0.012194] 5/0/       0
+  sd of the 7 variant means = 0.000039
+  |grand mean| / sd = 174.27x
+  random tie-break only (3 variants): sd=0.000008, range=0.000014
+
+=== morph minus random on boundary_f1 ===
+variant           mean        sd        t                      CI95    W/L/T
+id           +0.011903  0.014717    +1.81     [-0.006368,+0.030174] 4/1/       0
+rev_id       +0.019273  0.010640    +4.05     [+0.006063,+0.032483] 5/0/       0
+exp_short    +0.017809  0.016244    +2.45     [-0.002358,+0.037975] 5/0/       0
+exp_long     +0.014912  0.012497    +2.67     [-0.000602,+0.030426] 5/0/       0
+rand101      +0.019347  0.009662    +4.48     [+0.007352,+0.031342] 5/0/       0
+rand202      +0.018158  0.015351    +2.64     [-0.000900,+0.037215] 5/0/       0
+rand303      +0.020073  0.016073    +2.79     [+0.000120,+0.040027] 5/0/       0
+ALL          +0.017354  0.010952    +3.54     [+0.003757,+0.030950] 5/0/       0
+  sd of the 7 variant means = 0.002932
+  |grand mean| / sd = 5.92x
+  random tie-break only (3 variants): sd=0.000967, range=0.001916
+
+=== morph minus frequency on bits_per_char ===
+variant           mean        sd        t                      CI95    W/L/T
+id           -0.016830  0.012758    -2.95     [-0.032669,-0.000991] 0/5/       0
+rev_id       -0.017010  0.012546    -3.03     [-0.032586,-0.001434] 0/5/       0
+exp_short    -0.016984  0.012480    -3.04     [-0.032477,-0.001491] 0/5/       0
+exp_long     -0.016853  0.012802    -2.94     [-0.032746,-0.000960] 0/5/       0
+rand101      -0.016862  0.012804    -2.94     [-0.032757,-0.000967] 0/5/       0
+rand202      -0.016986  0.012476    -3.04     [-0.032475,-0.001498] 0/5/       0
+rand303      -0.016877  0.012796    -2.95     [-0.032763,-0.000992] 0/5/       0
+ALL          -0.016915  0.012665    -2.99     [-0.032638,-0.001191] 0/5/       0
+  sd of the 7 variant means = 0.000075
+  |grand mean| / sd = 224.06x
+  random tie-break only (3 variants): sd=0.000068, range=0.000124
+
+=== morph minus random on bits_per_char ===
+variant           mean        sd        t                      CI95    W/L/T
+id           -0.049106  0.043511    -2.52     [-0.103124,+0.004912] 0/5/       0
+rev_id       -0.108912  0.067575    -3.60     [-0.192804,-0.025020] 0/5/       0
+exp_short    -0.076699  0.076068    -2.25     [-0.171135,+0.017737] 0/5/       0
+exp_long     -0.052385  0.043729    -2.68     [-0.106673,+0.001904] 0/5/       0
+rand101      -0.067837  0.033966    -4.47     [-0.110005,-0.025670] 0/5/       0
+rand202      -0.066190  0.051839    -2.86     [-0.130545,-0.001834] 0/5/       0
+rand303      -0.108127  0.108948    -2.22     [-0.243383,+0.027128] 0/5/       0
+ALL          -0.075608  0.044919    -3.76     [-0.131374,-0.019842] 0/5/       0
+  sd of the 7 variant means = 0.024354
+  |grand mean| / sd = 3.10x
+  random tie-break only (3 variants): sd=0.023751, range=0.041938
+
+=== cell-level sign stability (variant x seed) ===
+  morph_minus_frequency  boundary_f1    beneficial 35/35, harmful 0, zero 0
+  morph_minus_random     boundary_f1    beneficial 34/35, harmful 1, zero 0
+  morph_minus_frequency  bits_per_char  beneficial 35/35, harmful 0, zero 0
+  morph_minus_random     bits_per_char  beneficial 35/35, harmful 0, zero 0
+
+=== absolute metric movement across variants, within seed ===
+ seed     morph F1 range      freq F1 range      rand F1 range     d(F1) morph-freq
+   42           1.45e-04           5.06e-04           2.79e-02             4.34e-04
+   43           7.67e-04           7.67e-04           2.90e-02             0.00e+00
+   44           7.23e-04           7.96e-04           1.99e-02             7.23e-05
+   45           2.17e-04           2.17e-04           2.16e-02             1.11e-16
+   46           7.23e-04           7.23e-04           2.65e-02             2.22e-16
+
+=== raw metric spread across regimes ===
+metric         mode                 mean  sd_regime_means  max_within_seed_range
+boundary_f1    flat             0.855716         1.07e-04               7.96e-04
+boundary_f1    frequency        0.855716         1.07e-04               7.96e-04
+boundary_f1    morph            0.862454         9.51e-05               7.67e-04
+boundary_f1    random_closed    0.845100         2.86e-03               2.90e-02
+bits_per_char  flat             2.321712         2.25e-04               2.23e-03
+bits_per_char  frequency        2.321712         2.25e-04               2.23e-03
+bits_per_char  morph            2.304797         2.78e-04               3.05e-03
+bits_per_char  random_closed    2.380405         2.42e-02               2.34e-01
+tokens_per_char flat             0.304082         3.49e-05               3.05e-04
+tokens_per_char frequency        0.304082         3.49e-05               3.05e-04
+tokens_per_char morph            0.304159         3.47e-05               3.05e-04
+tokens_per_char random_closed    0.310733         1.92e-03               2.25e-02
+
+=== BPE tie steps ===
+  id         ties=[115, 115, 118, 117, 108] of [490, 490, 490, 490, 490] (23.4% overall, per-seed 108-118)
+  rev_id     ties=[114, 115, 118, 117, 109] of [490, 490, 490, 490, 490] (23.4% overall, per-seed 109-118)
+  exp_short  ties=[115, 115, 118, 117, 108] of [490, 490, 490, 490, 490] (23.4% overall, per-seed 108-118)
+  exp_long   ties=[114, 116, 118, 117, 108] of [490, 490, 490, 490, 490] (23.4% overall, per-seed 108-118)
+  rand101    ties=[114, 116, 118, 117, 108] of [490, 490, 490, 490, 490] (23.4% overall, per-seed 108-118)
+  rand202    ties=[115, 116, 118, 117, 109] of [490, 490, 490, 490, 490] (23.5% overall, per-seed 109-118)
+  rand303    ties=[114, 115, 118, 117, 108] of [490, 490, 490, 490, 490] (23.3% overall, per-seed 108-118)
+
+=== flat rule-sequence divergence from the id tie-break ===
+  id         first differing rank per seed: none (identical sequence)
+  rev_id     first differing rank per seed: [23, 61, 75, 30, 11]
+  exp_short  first differing rank per seed: [147, 151, 133, 154, 106]
+  exp_long   first differing rank per seed: [89, 61, 75, 30, 11]
+  rand101    first differing rank per seed: [101, 61, 104, 118, 11]
+  rand202    first differing rank per seed: [23, 61, 104, 30, 29]
+  rand303    first differing rank per seed: [23, 61, 75, 118, 61]
+

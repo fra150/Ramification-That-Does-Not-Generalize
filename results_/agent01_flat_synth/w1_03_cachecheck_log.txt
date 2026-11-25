@@ -1,0 +1,32 @@
+cache check baseline: unweighted_equal=True weighted20k_equal=True
+cache check uniform: unweighted_equal=True weighted20k_equal=True
+seed=42 baseline         words=120000 periods=8408 types=7478 top1=0.152
+  seed=42 baseline         trained in 24.5s (490 merges)
+  seed=42 baseline         flat        tok/ch=0.3088 bpc=2.3539 F1=0.8665 L1=490 diff=0.000
+  seed=42 baseline         frequency   tok/ch=0.3088 bpc=2.3539 F1=0.8665 L1=294 diff=0.000
+  seed=42 baseline         morph       tok/ch=0.3094 bpc=2.3484 F1=0.8706 L1=294 diff=0.009
+  seed=42 baseline         random_closed tok/ch=0.3118 bpc=2.3496 F1=0.8757 L1=294 diff=0.034
+seed=42 uniform          words=120000 periods=8306 types=9216 top1=0.000
+  seed=42 uniform          trained in 35.4s (490 merges)
+  seed=42 uniform          flat        tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=490 diff=0.000
+  seed=42 uniform          frequency   tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=294 diff=0.000
+  seed=42 uniform          morph       tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=294 diff=0.000
+  seed=42 uniform          random_closed tok/ch=0.3227 bpc=2.1414 F1=0.9191 L1=294 diff=0.204
+seed=42 noperiod         words=120000 periods=0 types=7478 top1=0.152
+  seed=42 noperiod         trained in 22.8s (491 merges)
+  seed=42 noperiod         flat        tok/ch=0.3072 bpc=2.3231 F1=0.8682 L1=491 diff=0.000
+  seed=42 noperiod         frequency   tok/ch=0.3072 bpc=2.3231 F1=0.8682 L1=294 diff=0.000
+  seed=42 noperiod         morph       tok/ch=0.3078 bpc=2.3174 F1=0.8726 L1=294 diff=0.009
+  seed=42 noperiod         random_closed tok/ch=0.3096 bpc=2.3424 F1=0.8611 L1=294 diff=0.031
+seed=42 uniform_noperiod words=120000 periods=0 types=9216 top1=0.000
+  seed=42 uniform_noperiod trained in 32.1s (491 merges)
+  seed=42 uniform_noperiod flat        tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=491 diff=0.000
+  seed=42 uniform_noperiod frequency   tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=294 diff=0.000
+  seed=42 uniform_noperiod morph       tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=294 diff=0.000
+  seed=42 uniform_noperiod random_closed tok/ch=0.3151 bpc=2.0899 F1=0.9156 L1=294 diff=0.085
+wrote results/redteam/_w1_03_smoke\w1_03_runs.csv (16 rows)
+wrote results/redteam/_w1_03_smoke\w1_03_stats.csv (34 rows)
+wrote results/redteam/_w1_03_smoke\w1_03_corpus_stats.csv (4 rows)
+wrote results/redteam/_w1_03_smoke\w1_03_baseline_check.csv (12 rows)
+baseline reproduction: worst abs diff vs published = 1.155e-14
+total wall time 379.0s

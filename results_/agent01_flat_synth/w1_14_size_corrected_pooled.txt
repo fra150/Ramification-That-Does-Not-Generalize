@@ -1,0 +1,14 @@
+seed source            n  deltaF1   deltaBPC
+42   buggy-294       10  +0.01230  -0.04349
+43   buggy-294       10  +0.02557  -0.12474
+44   corrected-294    6  +0.02380  -0.07966
+45   corrected-294    6  +0.01852  -0.07565
+46   buggy-294        3  +0.00445  -0.01461
+47   buggy-294       10  +0.03380  -0.12570
+48   buggy-294       10  +0.03385  -0.11867
+49   buggy-294       10  +0.02392  -0.08262
+50   corrected-294    6  +0.02677  -0.10861
+51   buggy-294       10  +0.01667  -0.07075
+pooled delta_f1: mean=+0.02196 sd=0.00922 t=+7.53 CI95=[+0.01547,+0.02846] W/L=10/0 n=10
+pooled delta_bpc: mean=-0.08445 sd=0.03640 t=-7.34 CI95=[-0.11010,-0.05880] W/L=10/0 n=10
+wrote results/redteam/w1_14_size_corrected_pooled.csv

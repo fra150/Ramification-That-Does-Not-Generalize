@@ -1,0 +1,28 @@
+seed=42 zipf1m words=1000000 types=9215 coverage=0.9999 top1=0.153
+  seed=42 zipf1m flat         tok/ch=0.3095 bpc=2.3580 F1=0.8713 L1=490
+  seed=42 zipf1m frequency    tok/ch=0.3095 bpc=2.3580 F1=0.8713 L1=294
+  seed=42 zipf1m morph        tok/ch=0.3095 bpc=2.3482 F1=0.8750 L1=294
+  seed=42 zipf1m random_closed tok/ch=0.3141 bpc=2.3878 F1=0.8650 L1=294
+seed=43 zipf1m words=1000000 types=9216 coverage=1.0000 top1=0.152
+  seed=43 zipf1m flat         tok/ch=0.3032 bpc=2.3786 F1=0.7863 L1=490
+  seed=43 zipf1m frequency    tok/ch=0.3032 bpc=2.3786 F1=0.7863 L1=294
+  seed=43 zipf1m morph        tok/ch=0.3030 bpc=2.3652 F1=0.7935 L1=294
+  seed=43 zipf1m random_closed tok/ch=0.3058 bpc=2.3893 F1=0.7798 L1=294
+seed=44 zipf1m words=1000000 types=9216 coverage=1.0000 top1=0.152
+  seed=44 zipf1m flat         tok/ch=0.3032 bpc=2.2957 F1=0.8755 L1=490
+  seed=44 zipf1m frequency    tok/ch=0.3032 bpc=2.2957 F1=0.8755 L1=294
+  seed=44 zipf1m morph        tok/ch=0.3029 bpc=2.2700 F1=0.8871 L1=294
+  seed=44 zipf1m random_closed tok/ch=0.3160 bpc=2.4202 F1=0.8331 L1=292
+seed=45 zipf1m words=1000000 types=9216 coverage=1.0000 top1=0.151
+  seed=45 zipf1m flat         tok/ch=0.3009 bpc=2.2492 F1=0.9025 L1=490
+  seed=45 zipf1m frequency    tok/ch=0.3009 bpc=2.2492 F1=0.9025 L1=294
+  seed=45 zipf1m morph        tok/ch=0.3013 bpc=2.2182 F1=0.9137 L1=294
+  seed=45 zipf1m random_closed tok/ch=0.3032 bpc=2.2577 F1=0.9010 L1=293
+seed=46 zipf1m words=1000000 types=9216 coverage=1.0000 top1=0.153
+  seed=46 zipf1m flat         tok/ch=0.3021 bpc=2.3618 F1=0.8047 L1=490
+  seed=46 zipf1m frequency    tok/ch=0.3021 bpc=2.3618 F1=0.8047 L1=294
+  seed=46 zipf1m morph        tok/ch=0.3023 bpc=2.3524 F1=0.8080 L1=294
+  seed=46 zipf1m random_closed tok/ch=0.3120 bpc=2.4407 F1=0.7816 L1=293
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_03_zipf1m_runs.csv
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_03_zipf1m_stats.csv
+wrote C:\Users\acese\Desktop\unibull\results\redteam\w1_03_zipf1m_corpus.csv

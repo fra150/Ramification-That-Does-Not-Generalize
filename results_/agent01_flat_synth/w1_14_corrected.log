@@ -1,0 +1,33 @@
+seed=42 flat F1=0.8665 bpc=2.3539 | morph F1=0.8706 bpc=2.3484 | target_n1=294 duplicate_dep_edges=0
+  d0: nL1=294 F1=0.8485 bpc=2.4162
+  d1: nL1=294 F1=0.8644 bpc=2.3934
+  d2: nL1=294 F1=0.8638 bpc=2.3589
+  d3: nL1=294 F1=0.8603 bpc=2.3648
+  d4: nL1=294 F1=0.8646 bpc=2.3616
+  d5: nL1=294 F1=0.8574 bpc=2.4367
+seed=42 corrected-random F1=0.8598+-0.0062 bpc=2.3886+-0.0325 deltaF1=+0.0108 deltaBPC=-0.0402
+seed=44 flat F1=0.9142 bpc=2.2403 | morph F1=0.9238 bpc=2.2104 | target_n1=294 duplicate_dep_edges=1
+  d0: nL1=294 F1=0.8921 bpc=2.2935
+  d1: nL1=294 F1=0.8847 bpc=2.3112
+  d2: nL1=294 F1=0.9207 bpc=2.2288
+  d3: nL1=294 F1=0.9059 bpc=2.3095
+  d4: nL1=294 F1=0.9026 bpc=2.2904
+  d5: nL1=294 F1=0.8942 bpc=2.3067
+seed=44 corrected-random F1=0.9000+-0.0126 bpc=2.2900+-0.0312 deltaF1=+0.0238 deltaBPC=-0.0797
+seed=45 flat F1=0.8935 bpc=2.2553 | morph F1=0.9035 bpc=2.2317 | target_n1=294 duplicate_dep_edges=1
+  d0: nL1=294 F1=0.8915 bpc=2.2700
+  d1: nL1=294 F1=0.8755 bpc=2.3435
+  d2: nL1=294 F1=0.8889 bpc=2.2788
+  d3: nL1=294 F1=0.8901 bpc=2.3292
+  d4: nL1=294 F1=0.8931 bpc=2.2799
+  d5: nL1=294 F1=0.8706 bpc=2.3424
+seed=45 corrected-random F1=0.8850+-0.0094 bpc=2.3073+-0.0346 deltaF1=+0.0185 deltaBPC=-0.0757
+seed=50 flat F1=0.8902 bpc=2.2872 | morph F1=0.9010 bpc=2.2427 | target_n1=294 duplicate_dep_edges=2
+  d0: nL1=294 F1=0.8610 bpc=2.4419
+  d1: nL1=294 F1=0.8912 bpc=2.2953
+  d2: nL1=294 F1=0.8916 bpc=2.2800
+  d3: nL1=294 F1=0.8863 bpc=2.3001
+  d4: nL1=294 F1=0.8407 bpc=2.4568
+  d5: nL1=294 F1=0.8748 bpc=2.3336
+seed=50 corrected-random F1=0.8743+-0.0202 bpc=2.3513+-0.0781 deltaF1=+0.0268 deltaBPC=-0.1086
+wrote results/redteam/w1_14_corrected_sampler.csv (28 rows)

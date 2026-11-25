@@ -1,0 +1,11 @@
+verify baseline v512: {'vocab': 512, 'n_rules_src': 490, 'n_rules_fast': 490, 'same_rules': True, 'same_expansions': True, 'same_test_encoding': True}
+verify baseline v256: {'vocab': 256, 'n_rules_src': 234, 'n_rules_fast': 234, 'same_rules': True, 'same_expansions': True, 'same_test_encoding': True}
+verify uniform v256: {'vocab': 256, 'n_rules_src': 234, 'n_rules_fast': 234, 'same_rules': True, 'same_expansions': True, 'same_test_encoding': True}
+verify noperiod v512: {'vocab': 512, 'n_rules_src': 491, 'n_rules_fast': 491, 'same_rules': True, 'same_expansions': True, 'same_test_encoding': True}
+verify uniform_noperiod v256: {'vocab': 256, 'n_rules_src': 235, 'n_rules_fast': 235, 'same_rules': True, 'same_expansions': True, 'same_test_encoding': True}
+seed=42 baseline         words=120000 periods=8408 types=7478 top1=0.152
+  seed=42 baseline         trained in 28.3s (490 merges)
+  seed=42 baseline         flat        tok/ch=0.3088 bpc=2.3539 F1=0.8665 L1=490 diff=0.000
+  seed=42 baseline         frequency   tok/ch=0.3088 bpc=2.3539 F1=0.8665 L1=294 diff=0.000
+seed=42 uniform          words=120000 periods=8306 types=9216 top1=0.000
+  seed=42 uniform          trained in 63.6s (490 merges)

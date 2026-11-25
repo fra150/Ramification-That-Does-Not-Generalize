@@ -1,0 +1,16 @@
+=== semantic rule sets (seed 42, v512) ===
+  id: 490 flat rules
+  rev_id: 490 flat rules
+  id/rev_id flat semantic overlap: 423/557 union; first semantic divergence at rank 23
+  morph level-1 semantic overlap: 229/359 union; sizes 294 vs 294
+
+=== test-word boundary predictions ===
+  flat      words segmented differently id vs rev_id: 6/2304
+  frequency words segmented differently id vs rev_id: 6/2304
+  morph     words segmented differently id vs rev_id: 4/2304
+
+=== per-word F1 contribution: morph - frequency ===
+  id      changed 20/2304 words (better 20, worse 0), mean dF1 = +0.004123264
+  rev_id  changed 21/2304 words (better 21, worse 0), mean dF1 = +0.004557292
+  per-word F1-delta multiset differs: 1 words only in id, 1 only in rev_id
+  same set of changed words: 2303/2304

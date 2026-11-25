@@ -1,0 +1,154 @@
+fractions=[0.4, 0.5, 0.6, 0.7, 0.8] seeds=[42, 43, 44, 45, 46, 47, 48, 49, 50, 51] modes=['flat', 'frequency', 'morph', 'random_closed'] rows=200
+
+== frequency invariance across fractions ==
+boundary_f1: max within-seed spread across fractions = 0.00e+00
+bits_per_char: max within-seed spread across fractions = 0.00e+00
+tokens_per_char: max within-seed spread across fractions = 0.00e+00
+
+== realized level-1 size (requested vs actual, mean over seeds) ==
+fraction=0.4  frequency=196.0 [196-196]  morph=176.5 [161-185]  random_closed=195.7 [194-196]
+fraction=0.5  frequency=245.0 [245-245]  morph=221.6 [192-245]  random_closed=244.6 [243-245]
+fraction=0.6  frequency=294.0 [294-294]  morph=294.0 [294-294]  random_closed=293.6 [292-294]
+fraction=0.7  frequency=343.0 [343-343]  morph=343.0 [343-343]  random_closed=342.6 [341-343]
+fraction=0.8  frequency=392.0 [392-392]  morph=392.0 [392-392]  random_closed=391.5 [390-392]
+
+== raw means by fraction ==
+frac mode                 F1      bpc   tok/ch   n_l1
+ 0.4 flat             0.8742   2.3003   0.3035  490.0
+ 0.4 frequency        0.8742   2.3003   0.3035  196.0
+ 0.4 morph            0.8493   2.4616   0.3345  176.5
+ 0.4 random_closed    0.8434   2.4350   0.3205  195.7
+ 0.5 flat             0.8742   2.3003   0.3035  490.0
+ 0.5 frequency        0.8742   2.3003   0.3035  245.0
+ 0.5 morph            0.8586   2.4297   0.3302  221.6
+ 0.5 random_closed    0.8579   2.3767   0.3140  244.6
+ 0.6 flat             0.8742   2.3003   0.3035  490.0
+ 0.6 frequency        0.8742   2.3003   0.3035  294.0
+ 0.6 morph            0.8835   2.2745   0.3036  294.0
+ 0.6 random_closed    0.8678   2.3365   0.3090  293.6
+ 0.7 flat             0.8742   2.3003   0.3035  490.0
+ 0.7 frequency        0.8742   2.3003   0.3035  343.0
+ 0.7 morph            0.8756   2.2976   0.3036  343.0
+ 0.7 random_closed    0.8725   2.3121   0.3060  342.6
+ 0.8 flat             0.8742   2.3003   0.3035  490.0
+ 0.8 frequency        0.8742   2.3003   0.3035  392.0
+ 0.8 morph            0.8743   2.3002   0.3035  392.0
+ 0.8 random_closed    0.8737   2.3029   0.3044  391.5
+
+== paired contrasts by fraction ==
+
+-- boundary_f1 --
+frac=0.4 morph        -frequency  mean=-0.0249 sd=0.0179 t=-4.42 CI95=[-0.0377,-0.0122] W/L/T=0/10/0
+frac=0.4 random_closed-frequency  mean=-0.0308 sd=0.0113 t=-8.64 CI95=[-0.0389,-0.0228] W/L/T=0/10/0
+frac=0.4 morph        -random_closed mean=+0.0059 sd=0.0214 t=+0.87 CI95=[-0.0094,+0.0212] W/L/T=7/3/0
+frac=0.5 morph        -frequency  mean=-0.0156 sd=0.0251 t=-1.96 CI95=[-0.0335,+0.0024] W/L/T=4/6/0
+frac=0.5 random_closed-frequency  mean=-0.0163 sd=0.0132 t=-3.92 CI95=[-0.0257,-0.0069] W/L/T=0/10/0
+frac=0.5 morph        -random_closed mean=+0.0007 sd=0.0311 t=+0.07 CI95=[-0.0216,+0.0230] W/L/T=5/5/0
+frac=0.6 morph        -frequency  mean=+0.0092 sd=0.0045 t=+6.52 CI95=[+0.0060,+0.0125] W/L/T=10/0/0
+frac=0.6 random_closed-frequency  mean=-0.0064 sd=0.0117 t=-1.73 CI95=[-0.0147,+0.0020] W/L/T=3/7/0
+frac=0.6 morph        -random_closed mean=+0.0156 sd=0.0130 t=+3.81 CI95=[+0.0064,+0.0249] W/L/T=9/1/0
+frac=0.7 morph        -frequency  mean=+0.0014 sd=0.0011 t=+4.00 CI95=[+0.0006,+0.0022] W/L/T=8/0/2
+frac=0.7 random_closed-frequency  mean=-0.0017 sd=0.0060 t=-0.91 CI95=[-0.0060,+0.0025] W/L/T=4/6/0
+frac=0.7 morph        -random_closed mean=+0.0031 sd=0.0067 t=+1.47 CI95=[-0.0017,+0.0079] W/L/T=7/3/0
+frac=0.8 morph        -frequency  mean=+0.0000 sd=0.0001 t=+1.50 CI95=[-0.0000,+0.0001] W/L/T=2/0/8
+frac=0.8 random_closed-frequency  mean=-0.0005 sd=0.0035 t=-0.48 CI95=[-0.0030,+0.0019] W/L/T=4/6/0
+frac=0.8 morph        -random_closed mean=+0.0006 sd=0.0035 t=+0.52 CI95=[-0.0019,+0.0030] W/L/T=7/3/0
+
+-- bits_per_char --
+frac=0.4 morph        -frequency  mean=+0.1613 sd=0.0855 t=+5.97 CI95=[+0.1002,+0.2225] W/L/T=10/0/0
+frac=0.4 random_closed-frequency  mean=+0.1347 sd=0.0304 t=+14.03 CI95=[+0.1130,+0.1564] W/L/T=10/0/0
+frac=0.4 morph        -random_closed mean=+0.0266 sd=0.0812 t=+1.04 CI95=[-0.0315,+0.0847] W/L/T=7/3/0
+frac=0.5 morph        -frequency  mean=+0.1294 sd=0.1267 t=+3.23 CI95=[+0.0388,+0.2200] W/L/T=8/2/0
+frac=0.5 random_closed-frequency  mean=+0.0764 sd=0.0428 t=+5.64 CI95=[+0.0457,+0.1070] W/L/T=10/0/0
+frac=0.5 morph        -random_closed mean=+0.0530 sd=0.1435 t=+1.17 CI95=[-0.0496,+0.1557] W/L/T=7/3/0
+frac=0.6 morph        -frequency  mean=-0.0258 sd=0.0151 t=-5.38 CI95=[-0.0366,-0.0150] W/L/T=0/10/0
+frac=0.6 random_closed-frequency  mean=+0.0361 sd=0.0376 t=+3.04 CI95=[+0.0092,+0.0631] W/L/T=8/2/0
+frac=0.6 morph        -random_closed mean=-0.0619 sd=0.0414 t=-4.73 CI95=[-0.0916,-0.0323] W/L/T=0/10/0
+frac=0.7 morph        -frequency  mean=-0.0028 sd=0.0022 t=-3.91 CI95=[-0.0044,-0.0012] W/L/T=1/9/0
+frac=0.7 random_closed-frequency  mean=+0.0117 sd=0.0222 t=+1.67 CI95=[-0.0042,+0.0276] W/L/T=7/3/0
+frac=0.7 morph        -random_closed mean=-0.0145 sd=0.0236 t=-1.94 CI95=[-0.0314,+0.0024] W/L/T=2/8/0
+frac=0.8 morph        -frequency  mean=-0.0001 sd=0.0002 t=-1.16 CI95=[-0.0002,+0.0001] W/L/T=0/2/8
+frac=0.8 random_closed-frequency  mean=+0.0025 sd=0.0084 t=+0.96 CI95=[-0.0035,+0.0085] W/L/T=5/5/0
+frac=0.8 morph        -random_closed mean=-0.0026 sd=0.0084 t=-0.99 CI95=[-0.0086,+0.0034] W/L/T=5/5/0
+
+== precision / recall decomposition (morph - frequency) ==
+-- boundary_macro_precision --
+frac=0.4 mean=-0.0479 sd=0.0274 t=-5.53 CI95=[-0.0675,-0.0283] W/L/T=0/10/0
+frac=0.5 mean=-0.0364 sd=0.0374 t=-3.08 CI95=[-0.0632,-0.0097] W/L/T=2/8/0
+frac=0.6 mean=+0.0085 sd=0.0045 t=+6.02 CI95=[+0.0053,+0.0117] W/L/T=9/0/1
+frac=0.7 mean=+0.0013 sd=0.0011 t=+3.73 CI95=[+0.0005,+0.0020] W/L/T=8/0/2
+frac=0.8 mean=+0.0000 sd=0.0001 t=+1.50 CI95=[-0.0000,+0.0001] W/L/T=2/0/8
+-- boundary_macro_recall --
+frac=0.4 mean=+0.0133 sd=0.0170 t=+2.48 CI95=[+0.0012,+0.0255] W/L/T=7/3/0
+frac=0.5 mean=+0.0182 sd=0.0170 t=+3.39 CI95=[+0.0061,+0.0304] W/L/T=7/3/0
+frac=0.6 mean=+0.0095 sd=0.0045 t=+6.74 CI95=[+0.0063,+0.0127] W/L/T=10/0/0
+frac=0.7 mean=+0.0015 sd=0.0011 t=+4.05 CI95=[+0.0006,+0.0023] W/L/T=8/0/2
+frac=0.8 mean=+0.0000 sd=0.0001 t=+1.50 CI95=[-0.0000,+0.0001] W/L/T=2/0/8
+
+== micro-F1 morphology contrast (morph - frequency) ==
+frac=0.4 mean=-0.0496 sd=0.0228 t=-6.88 CI95=[-0.0659,-0.0333] W/L/T=0/10/0
+frac=0.5 mean=-0.0370 sd=0.0361 t=-3.24 CI95=[-0.0628,-0.0111] W/L/T=2/8/0
+frac=0.6 mean=+0.0095 sd=0.0047 t=+6.35 CI95=[+0.0061,+0.0129] W/L/T=10/0/0
+frac=0.7 mean=+0.0014 sd=0.0011 t=+4.02 CI95=[+0.0006,+0.0022] W/L/T=8/0/2
+frac=0.8 mean=+0.0000 sd=0.0001 t=+1.50 CI95=[-0.0000,+0.0001] W/L/T=2/0/8
+
+== decode checks (should be 1.0 everywhere) ==
+flat: min decode_word=1.000 min decode_doc=1.000
+frequency: min decode_word=1.000 min decode_doc=1.000
+morph: min decode_word=1.000 min decode_doc=1.000
+random_closed: min decode_word=1.000 min decode_doc=1.000
+
+== fraction dependence of the morph-frequency advantage ==
+
+-- boundary_f1: per-seed delta by fraction --
+frac=0.4 -0.0040 -0.0473 -0.0086 -0.0059 -0.0110 -0.0218 -0.0265 -0.0540 -0.0400 -0.0303
+frac=0.5 +0.0281 -0.0451 +0.0004 +0.0020 +0.0127 -0.0204 -0.0220 -0.0438 -0.0362 -0.0314
+frac=0.6 +0.0041 +0.0097 +0.0096 +0.0100 +0.0001 +0.0091 +0.0156 +0.0145 +0.0108 +0.0088
+frac=0.7 +0.0000 +0.0025 +0.0035 +0.0009 +0.0000 +0.0013 +0.0014 +0.0015 +0.0007 +0.0022
+frac=0.8 +0.0000 +0.0000 +0.0002 +0.0000 +0.0000 +0.0002 +0.0000 +0.0000 +0.0000 +0.0000
+pairwise difference of deltas (fraction A - fraction B):
+  0.4 vs 0.5: mean=-0.0094 sd=0.0106 t=-2.81 CI95=[-0.0169,-0.0018] W/L/T=1/9/0
+  0.4 vs 0.6: mean=-0.0342 sd=0.0207 t=-5.21 CI95=[-0.0490,-0.0194] W/L/T=0/10/0
+  0.4 vs 0.7: mean=-0.0263 sd=0.0182 t=-4.58 CI95=[-0.0393,-0.0133] W/L/T=0/10/0
+  0.4 vs 0.8: mean=-0.0250 sd=0.0178 t=-4.43 CI95=[-0.0378,-0.0122] W/L/T=0/10/0
+  0.5 vs 0.6: mean=-0.0248 sd=0.0284 t=-2.77 CI95=[-0.0451,-0.0045] W/L/T=2/8/0
+  0.5 vs 0.7: mean=-0.0170 sd=0.0256 t=-2.10 CI95=[-0.0353,+0.0014] W/L/T=3/7/0
+  0.5 vs 0.8: mean=-0.0156 sd=0.0251 t=-1.97 CI95=[-0.0336,+0.0023] W/L/T=4/6/0
+  0.6 vs 0.7: mean=+0.0079 sd=0.0041 t=+6.05 CI95=[+0.0049,+0.0108] W/L/T=10/0/0
+  0.6 vs 0.8: mean=+0.0092 sd=0.0045 t=+6.49 CI95=[+0.0060,+0.0124] W/L/T=10/0/0
+  0.7 vs 0.8: mean=+0.0013 sd=0.0011 t=+4.03 CI95=[+0.0006,+0.0021] W/L/T=8/0/2
+
+-- bits_per_char: per-seed delta by fraction --
+frac=0.4 +0.0061 +0.3074 +0.1318 +0.0698 +0.1472 +0.2454 +0.1723 +0.2180 +0.1726 +0.1426
+frac=0.5 -0.0923 +0.3281 +0.1156 +0.0714 -0.0492 +0.2415 +0.1625 +0.2000 +0.1615 +0.1551
+frac=0.6 -0.0054 -0.0241 -0.0299 -0.0237 -0.0010 -0.0248 -0.0494 -0.0345 -0.0445 -0.0205
+frac=0.7 -0.0001 -0.0059 -0.0063 -0.0021 +0.0002 -0.0022 -0.0034 -0.0030 -0.0008 -0.0040
+frac=0.8 +0.0000 +0.0000 -0.0006 +0.0000 +0.0000 -0.0001 +0.0000 +0.0000 +0.0000 +0.0000
+pairwise difference of deltas (fraction A - fraction B):
+  0.4 vs 0.5: mean=+0.0319 sd=0.0662 t=+1.52 CI95=[-0.0155,+0.0793] W/L/T=7/3/0
+  0.4 vs 0.6: mean=+0.1871 sd=0.0922 t=+6.42 CI95=[+0.1212,+0.2530] W/L/T=10/0/0
+  0.4 vs 0.7: mean=+0.1641 sd=0.0865 t=+6.00 CI95=[+0.1022,+0.2260] W/L/T=10/0/0
+  0.4 vs 0.8: mean=+0.1614 sd=0.0855 t=+5.97 CI95=[+0.1002,+0.2225] W/L/T=10/0/0
+  0.5 vs 0.6: mean=+0.1552 sd=0.1363 t=+3.60 CI95=[+0.0577,+0.2527] W/L/T=8/2/0
+  0.5 vs 0.7: mean=+0.1322 sd=0.1281 t=+3.26 CI95=[+0.0405,+0.2238] W/L/T=8/2/0
+  0.5 vs 0.8: mean=+0.1295 sd=0.1267 t=+3.23 CI95=[+0.0389,+0.2201] W/L/T=8/2/0
+  0.6 vs 0.7: mean=-0.0230 sd=0.0145 t=-5.03 CI95=[-0.0334,-0.0127] W/L/T=0/10/0
+  0.6 vs 0.8: mean=-0.0257 sd=0.0151 t=-5.37 CI95=[-0.0365,-0.0149] W/L/T=0/10/0
+  0.7 vs 0.8: mean=-0.0027 sd=0.0021 t=-3.99 CI95=[-0.0042,-0.0012] W/L/T=1/9/0
+
+== fraction selection: in-sample vs LOSO ==
+
+-- boundary_f1 (higher score = better) --
+in-sample mean delta by fraction: 0.4:-0.0249 0.5:-0.0156 0.6:+0.0092 0.7:+0.0014 0.8:+0.0000
+in-sample best fraction = 0.6 (delta +0.0092)
+LOSO picks: 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6
+LOSO-selected held-out score mean=+0.0092; fixed 0.6 mean=+0.0092; optimism=+0.0000
+
+-- bits_per_char (higher score = better) --
+in-sample mean delta by fraction: 0.4:-0.1613 0.5:-0.1294 0.6:+0.0258 0.7:+0.0028 0.8:+0.0001
+in-sample best fraction = 0.6 (delta -0.0258)
+LOSO picks: 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6
+LOSO-selected held-out score mean=+0.0258; fixed 0.6 mean=+0.0258; optimism=+0.0000
+
+== reproduction vs published fraction=0.6 CSV ==
+max |new - published| at fraction 0.6: n_l1=0.000e+00 boundary_f1=0.000e+00 bits_per_char=0.000e+00 tokens_per_char=0.000e+00

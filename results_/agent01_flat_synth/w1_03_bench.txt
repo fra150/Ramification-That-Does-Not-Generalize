@@ -1,0 +1,6 @@
+baseline           v=  64 merges=  42 t=  17.58s
+baseline           v= 128 merges= 106 t=  36.34s
+baseline           v= 256 merges= 234 t=  45.74s
+uniform            v=  64 merges=  42 t=  34.38s
+uniform            v= 128 merges= 106 t=  53.29s
+uniform            v= 256 merges= 234 t=  61.84s

@@ -1,0 +1,146 @@
+seed=42 baseline         words=120000 periods=8408 types=7478 top1=0.152
+  seed=42 baseline         trained in 18.0s (490 merges)
+  seed=42 baseline         flat        tok/ch=0.3088 bpc=2.3539 F1=0.8665 L1=490 diff=0.000
+  seed=42 baseline         frequency   tok/ch=0.3088 bpc=2.3539 F1=0.8665 L1=294 diff=0.000
+  seed=42 baseline         morph       tok/ch=0.3094 bpc=2.3484 F1=0.8706 L1=294 diff=0.009
+  seed=42 baseline         random_closed tok/ch=0.3118 bpc=2.3496 F1=0.8757 L1=294 diff=0.034
+  seed=42 baseline         morph_type  tok/ch=0.3094 bpc=2.3484 F1=0.8706 L1=294 diff=0.009
+seed=42 uniform          words=120000 periods=8306 types=9216 top1=0.000
+  seed=42 uniform          trained in 30.9s (490 merges)
+  seed=42 uniform          flat        tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=490 diff=0.000
+  seed=42 uniform          frequency   tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=294 diff=0.000
+  seed=42 uniform          morph       tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=294 diff=0.000
+  seed=42 uniform          random_closed tok/ch=0.3227 bpc=2.1414 F1=0.9191 L1=294 diff=0.204
+  seed=42 uniform          morph_type  tok/ch=0.3015 bpc=1.9655 F1=0.9494 L1=294 diff=0.000
+seed=42 noperiod         words=120000 periods=0 types=7478 top1=0.152
+  seed=42 noperiod         trained in 22.5s (491 merges)
+  seed=42 noperiod         flat        tok/ch=0.3072 bpc=2.3231 F1=0.8682 L1=491 diff=0.000
+  seed=42 noperiod         frequency   tok/ch=0.3072 bpc=2.3231 F1=0.8682 L1=294 diff=0.000
+  seed=42 noperiod         morph       tok/ch=0.3078 bpc=2.3174 F1=0.8726 L1=294 diff=0.009
+  seed=42 noperiod         random_closed tok/ch=0.3096 bpc=2.3424 F1=0.8611 L1=294 diff=0.031
+  seed=42 noperiod         morph_type  tok/ch=0.3078 bpc=2.3174 F1=0.8726 L1=294 diff=0.009
+seed=42 uniform_noperiod words=120000 periods=0 types=9216 top1=0.000
+  seed=42 uniform_noperiod trained in 33.6s (491 merges)
+  seed=42 uniform_noperiod flat        tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=491 diff=0.000
+  seed=42 uniform_noperiod frequency   tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=294 diff=0.000
+  seed=42 uniform_noperiod morph       tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=294 diff=0.000
+  seed=42 uniform_noperiod random_closed tok/ch=0.3151 bpc=2.0899 F1=0.9156 L1=294 diff=0.085
+  seed=42 uniform_noperiod morph_type  tok/ch=0.3013 bpc=1.9546 F1=0.9491 L1=294 diff=0.000
+seed=43 baseline         words=120000 periods=8380 types=7482 top1=0.152
+  seed=43 baseline         trained in 25.2s (490 merges)
+  seed=43 baseline         flat        tok/ch=0.3054 bpc=2.3920 F1=0.8011 L1=490 diff=0.000
+  seed=43 baseline         frequency   tok/ch=0.3054 bpc=2.3920 F1=0.8011 L1=294 diff=0.000
+  seed=43 baseline         morph       tok/ch=0.3046 bpc=2.3678 F1=0.8108 L1=294 diff=0.019
+  seed=43 baseline         random_closed tok/ch=0.3060 bpc=2.3960 F1=0.8017 L1=294 diff=0.020
+  seed=43 baseline         morph_type  tok/ch=0.3046 bpc=2.3678 F1=0.8108 L1=294 diff=0.019
+seed=43 uniform          words=120000 periods=8437 types=9216 top1=0.000
+  seed=43 uniform          trained in 33.3s (490 merges)
+  seed=43 uniform          flat        tok/ch=0.2951 bpc=2.0823 F1=0.7882 L1=490 diff=0.000
+  seed=43 uniform          frequency   tok/ch=0.2951 bpc=2.0823 F1=0.7882 L1=294 diff=0.000
+  seed=43 uniform          morph       tok/ch=0.2951 bpc=2.0823 F1=0.7882 L1=294 diff=0.000
+  seed=43 uniform          random_closed tok/ch=0.2988 bpc=2.1285 F1=0.7764 L1=294 diff=0.024
+  seed=43 uniform          morph_type  tok/ch=0.2951 bpc=2.0823 F1=0.7882 L1=294 diff=0.000
+seed=43 noperiod         words=120000 periods=0 types=7482 top1=0.152
+  seed=43 noperiod         trained in 22.6s (491 merges)
+  seed=43 noperiod         flat        tok/ch=0.3051 bpc=2.3736 F1=0.8007 L1=491 diff=0.000
+  seed=43 noperiod         frequency   tok/ch=0.3051 bpc=2.3736 F1=0.8007 L1=294 diff=0.000
+  seed=43 noperiod         morph       tok/ch=0.3043 bpc=2.3496 F1=0.8104 L1=294 diff=0.019
+  seed=43 noperiod         random_closed tok/ch=0.3072 bpc=2.3971 F1=0.7948 L1=294 diff=0.023
+  seed=43 noperiod         morph_type  tok/ch=0.3043 bpc=2.3496 F1=0.8104 L1=294 diff=0.019
+seed=43 uniform_noperiod words=120000 periods=0 types=9216 top1=0.000
+  seed=43 uniform_noperiod trained in 29.0s (491 merges)
+  seed=43 uniform_noperiod flat        tok/ch=0.2948 bpc=2.0713 F1=0.7878 L1=491 diff=0.000
+  seed=43 uniform_noperiod frequency   tok/ch=0.2948 bpc=2.0713 F1=0.7878 L1=294 diff=0.000
+  seed=43 uniform_noperiod morph       tok/ch=0.2948 bpc=2.0713 F1=0.7878 L1=294 diff=0.000
+  seed=43 uniform_noperiod random_closed tok/ch=0.2960 bpc=2.0875 F1=0.7817 L1=294 diff=0.015
+  seed=43 uniform_noperiod morph_type  tok/ch=0.2948 bpc=2.0713 F1=0.7878 L1=294 diff=0.000
+seed=44 baseline         words=120000 periods=8550 types=7483 top1=0.152
+  seed=44 baseline         trained in 18.5s (490 merges)
+  seed=44 baseline         flat        tok/ch=0.3020 bpc=2.2403 F1=0.9142 L1=490 diff=0.000
+  seed=44 baseline         frequency   tok/ch=0.3020 bpc=2.2403 F1=0.9142 L1=294 diff=0.000
+  seed=44 baseline         morph       tok/ch=0.3021 bpc=2.2104 F1=0.9238 L1=294 diff=0.020
+  seed=44 baseline         random_closed tok/ch=0.3093 bpc=2.3265 F1=0.8884 L1=293 diff=0.051
+  seed=44 baseline         morph_type  tok/ch=0.3021 bpc=2.2104 F1=0.9238 L1=294 diff=0.020
+seed=44 uniform          words=120000 periods=8231 types=9216 top1=0.000
+  seed=44 uniform          trained in 27.8s (490 merges)
+  seed=44 uniform          flat        tok/ch=0.2980 bpc=2.0435 F1=0.8486 L1=490 diff=0.000
+  seed=44 uniform          frequency   tok/ch=0.2980 bpc=2.0435 F1=0.8486 L1=294 diff=0.000
+  seed=44 uniform          morph       tok/ch=0.2980 bpc=2.0435 F1=0.8486 L1=294 diff=0.000
+  seed=44 uniform          random_closed tok/ch=0.3014 bpc=2.0843 F1=0.8426 L1=294 diff=0.021
+  seed=44 uniform          morph_type  tok/ch=0.2980 bpc=2.0435 F1=0.8486 L1=294 diff=0.000
+seed=44 noperiod         words=120000 periods=0 types=7483 top1=0.152
+  seed=44 noperiod         trained in 16.1s (491 merges)
+  seed=44 noperiod         flat        tok/ch=0.3020 bpc=2.2224 F1=0.9143 L1=491 diff=0.000
+  seed=44 noperiod         frequency   tok/ch=0.3020 bpc=2.2224 F1=0.9143 L1=294 diff=0.000
+  seed=44 noperiod         morph       tok/ch=0.3021 bpc=2.1927 F1=0.9238 L1=294 diff=0.020
+  seed=44 noperiod         random_closed tok/ch=0.3075 bpc=2.2856 F1=0.8993 L1=294 diff=0.047
+  seed=44 noperiod         morph_type  tok/ch=0.3021 bpc=2.1927 F1=0.9238 L1=294 diff=0.020
+seed=44 uniform_noperiod words=120000 periods=0 types=9216 top1=0.000
+  seed=44 uniform_noperiod trained in 17.5s (491 merges)
+  seed=44 uniform_noperiod flat        tok/ch=0.2977 bpc=2.0325 F1=0.8486 L1=491 diff=0.000
+  seed=44 uniform_noperiod frequency   tok/ch=0.2977 bpc=2.0325 F1=0.8486 L1=294 diff=0.000
+  seed=44 uniform_noperiod morph       tok/ch=0.2977 bpc=2.0325 F1=0.8486 L1=294 diff=0.000
+  seed=44 uniform_noperiod random_closed tok/ch=0.3035 bpc=2.0864 F1=0.8423 L1=294 diff=0.035
+  seed=44 uniform_noperiod morph_type  tok/ch=0.2977 bpc=2.0325 F1=0.8486 L1=294 diff=0.000
+seed=45 baseline         words=120000 periods=8495 types=7405 top1=0.151
+  seed=45 baseline         trained in 14.3s (490 merges)
+  seed=45 baseline         flat        tok/ch=0.3012 bpc=2.2553 F1=0.8935 L1=490 diff=0.000
+  seed=45 baseline         frequency   tok/ch=0.3012 bpc=2.2553 F1=0.8935 L1=294 diff=0.000
+  seed=45 baseline         morph       tok/ch=0.3018 bpc=2.2317 F1=0.9035 L1=294 diff=0.022
+  seed=45 baseline         random_closed tok/ch=0.3048 bpc=2.2686 F1=0.8916 L1=294 diff=0.037
+  seed=45 baseline         morph_type  tok/ch=0.3018 bpc=2.2317 F1=0.9035 L1=294 diff=0.022
+seed=45 uniform          words=120000 periods=8353 types=9216 top1=0.000
+  seed=45 uniform          trained in 20.2s (490 merges)
+  seed=45 uniform          flat        tok/ch=0.2969 bpc=1.9463 F1=0.9464 L1=490 diff=0.000
+  seed=45 uniform          frequency   tok/ch=0.2969 bpc=1.9463 F1=0.9464 L1=294 diff=0.000
+  seed=45 uniform          morph       tok/ch=0.2969 bpc=1.9463 F1=0.9464 L1=294 diff=0.000
+  seed=45 uniform          random_closed tok/ch=0.3049 bpc=2.0497 F1=0.9198 L1=293 diff=0.058
+  seed=45 uniform          morph_type  tok/ch=0.2969 bpc=1.9463 F1=0.9464 L1=294 diff=0.000
+seed=45 noperiod         words=120000 periods=0 types=7405 top1=0.151
+  seed=45 noperiod         trained in 12.9s (491 merges)
+  seed=45 noperiod         flat        tok/ch=0.3010 bpc=2.2354 F1=0.8938 L1=491 diff=0.000
+  seed=45 noperiod         frequency   tok/ch=0.3010 bpc=2.2354 F1=0.8938 L1=294 diff=0.000
+  seed=45 noperiod         morph       tok/ch=0.3018 bpc=2.2142 F1=0.9035 L1=294 diff=0.022
+  seed=45 noperiod         random_closed tok/ch=0.3046 bpc=2.2847 F1=0.8797 L1=293 diff=0.032
+  seed=45 noperiod         morph_type  tok/ch=0.3018 bpc=2.2142 F1=0.9035 L1=294 diff=0.022
+seed=45 uniform_noperiod words=120000 periods=0 types=9216 top1=0.000
+  seed=45 uniform_noperiod trained in 19.1s (491 merges)
+  seed=45 uniform_noperiod flat        tok/ch=0.2969 bpc=1.9362 F1=0.9461 L1=491 diff=0.000
+  seed=45 uniform_noperiod frequency   tok/ch=0.2969 bpc=1.9362 F1=0.9461 L1=294 diff=0.000
+  seed=45 uniform_noperiod morph       tok/ch=0.2969 bpc=1.9362 F1=0.9461 L1=294 diff=0.000
+  seed=45 uniform_noperiod random_closed tok/ch=0.3017 bpc=1.9911 F1=0.9337 L1=292 diff=0.031
+  seed=45 uniform_noperiod morph_type  tok/ch=0.2969 bpc=1.9362 F1=0.9461 L1=294 diff=0.000
+seed=46 baseline         words=120000 periods=8399 types=7493 top1=0.153
+  seed=46 baseline         trained in 15.3s (490 merges)
+  seed=46 baseline         flat        tok/ch=0.3029 bpc=2.3671 F1=0.8029 L1=490 diff=0.000
+  seed=46 baseline         frequency   tok/ch=0.3029 bpc=2.3671 F1=0.8029 L1=294 diff=0.000
+  seed=46 baseline         morph       tok/ch=0.3029 bpc=2.3661 F1=0.8030 L1=294 diff=0.002
+  seed=46 baseline         random_closed tok/ch=0.3117 bpc=2.4293 F1=0.7949 L1=293 diff=0.053
+  seed=46 baseline         morph_type  tok/ch=0.3029 bpc=2.3661 F1=0.8030 L1=294 diff=0.002
+seed=46 uniform          words=120000 periods=8449 types=9216 top1=0.000
+  seed=46 uniform          trained in 18.7s (490 merges)
+  seed=46 uniform          flat        tok/ch=0.2993 bpc=1.9633 F1=0.9446 L1=490 diff=0.000
+  seed=46 uniform          frequency   tok/ch=0.2993 bpc=1.9633 F1=0.9446 L1=294 diff=0.000
+  seed=46 uniform          morph       tok/ch=0.2993 bpc=1.9633 F1=0.9446 L1=294 diff=0.000
+  seed=46 uniform          random_closed tok/ch=0.3070 bpc=2.0555 F1=0.9175 L1=293 diff=0.055
+  seed=46 uniform          morph_type  tok/ch=0.2993 bpc=1.9633 F1=0.9446 L1=294 diff=0.000
+seed=46 noperiod         words=120000 periods=0 types=7493 top1=0.153
+  seed=46 noperiod         trained in 18.1s (491 merges)
+  seed=46 noperiod         flat        tok/ch=0.3028 bpc=2.3487 F1=0.8030 L1=491 diff=0.000
+  seed=46 noperiod         frequency   tok/ch=0.3028 bpc=2.3487 F1=0.8030 L1=294 diff=0.000
+  seed=46 noperiod         morph       tok/ch=0.3028 bpc=2.3478 F1=0.8031 L1=294 diff=0.002
+  seed=46 noperiod         random_closed tok/ch=0.3063 bpc=2.3679 F1=0.7971 L1=293 diff=0.032
+  seed=46 noperiod         morph_type  tok/ch=0.3028 bpc=2.3478 F1=0.8031 L1=294 diff=0.002
+seed=46 uniform_noperiod words=120000 periods=0 types=9216 top1=0.000
+  seed=46 uniform_noperiod trained in 19.1s (491 merges)
+  seed=46 uniform_noperiod flat        tok/ch=0.2993 bpc=1.9530 F1=0.9444 L1=491 diff=0.000
+  seed=46 uniform_noperiod frequency   tok/ch=0.2993 bpc=1.9530 F1=0.9444 L1=294 diff=0.000
+  seed=46 uniform_noperiod morph       tok/ch=0.2993 bpc=1.9530 F1=0.9444 L1=294 diff=0.000
+  seed=46 uniform_noperiod random_closed tok/ch=0.3142 bpc=2.0934 F1=0.9120 L1=293 diff=0.089
+  seed=46 uniform_noperiod morph_type  tok/ch=0.2993 bpc=1.9530 F1=0.9444 L1=294 diff=0.000
+wrote results/redteam\w1_03_runs.csv (100 rows)
+wrote results/redteam\w1_03_stats.csv (50 rows)
+wrote results/redteam\w1_03_corpus_stats.csv (20 rows)
+wrote results/redteam\w1_03_baseline_check.csv (60 rows)
+baseline reproduction: worst abs diff vs published = 6.883e-14
+total wall time 1138.4s
